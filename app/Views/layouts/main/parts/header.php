@@ -32,7 +32,7 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left">
                                 <ul>     
-                                    <li>contato@brasilatuarial.com.br</li>
+                                    <li>ccccccontato@brasilatuarial.com.br</li>
                                     <li>(31) 2510-8536</li>
                                 </ul>
                             </div>
