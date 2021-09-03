@@ -34,11 +34,16 @@ class Pages extends BaseController
 	{
 		return view('solutions', ['main_menu' => $this->main_menu] );
 	}
+	public function dygo()
+	{
+		return view('dygo', ['main_menu' => $this->main_menu] );
+	}
 
-	public function blog()
+	public function blog($cat = null)
 	{
 		
-
+		// print_r($cat);
+		// exit;
 
 		// $pager = \Config\Services::pager();
 		// helper("slugurl");
@@ -68,12 +73,16 @@ class Pages extends BaseController
         // , GROUP_CONCAT(c.category SEPARATOR ", ") as categorias
 		// $$query->getResultArray());
         // $posts = $query->getResultArray();
-		$posts = $postsModel->select('p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes', false)
+		$postsModel->select('p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes', false)
 		->from("posts as p", true)
 		->join('post_categories as pc', 'pc.pid = p.id', 'left')
 		->join('categories as c', 'c.id = pc.cid', 'left')
 		->join('images as i', 'i.owner_id = p.id', 'left')
-		->where('p.status', 1)
+		->where('p.status', 1);
+		if($cat !== null ) {
+			$postsModel->where('c.slug', $cat);
+		} 
+		$posts = $postsModel
 		->groupBy('p.id')
 		// ->getCompiledSelect();
 		->paginate(5, false);

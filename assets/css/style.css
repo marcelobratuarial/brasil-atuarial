@@ -3363,6 +3363,25 @@ hr {
 	}
 }
 
+.dygo-details .dygo-details-cap h4 {
+	font-size: 30px;
+	font-family: "Sen", sans-serif;
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #000a2d;
+	display: inline-block;
+	
+}
+
+.dygo-details .dygo-details-cap img {
+	padding: 20px;
+}
+.dygo-details .dygo-details-cap p {
+	color: #464d65;
+	text-align: justify;
+	font-size: 16px
+}
+
 .about-details .about-details-cap h4 {
 	font-size: 30px;
 	font-family: "Sen", sans-serif;
@@ -3566,7 +3585,7 @@ hr {
 
 .team-area .single-team .team-caption {
 	background: #fff;
-	padding: 15px 0px;
+	padding: 30px 0px;
 	text-align: center
 }
 
@@ -3603,7 +3622,17 @@ hr {
 	opacity: 1;
 	visibility: visible
 }
-
+.team-area .single-team .team-caption .team-content {
+	max-height: 320px;
+	transition: max-height 0.85s ease-out;
+	text-align: justify;
+	overflow: hidden;
+	
+}
+.team-area .single-team:hover .team-caption .team-content {
+	max-height: 800px;
+    transition: max-height 0.65s ease-in;
+}
 .team-social {
 	position: absolute;
 	bottom: 22px;

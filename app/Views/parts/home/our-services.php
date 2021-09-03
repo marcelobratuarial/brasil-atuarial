@@ -66,9 +66,10 @@
                         <span class="flaticon-tools-and-utensils"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Dygo</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                        <a  href="#" class="read-more1">Leia Mais ></a>
+                        <h5><a  href="<?= base_url('solucoes/dygo') ?>">Dygo</a></h5>
+                        <p>A DYGO - Universidade corporativa nasceu de uma dor do segmento da Proteção Veicular,
+                            uma dor das associações como um todo: Que é essa rotatividade de associado e de consultores.</p>
+                        <a  href="<?= base_url('solucoes/dygo') ?>" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
             </div>

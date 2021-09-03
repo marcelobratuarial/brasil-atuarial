@@ -114,7 +114,7 @@
         </ul>
     </aside> -->
 
-    <aside class="single_sidebar_widget instagram_feeds">
+    <!-- <aside class="single_sidebar_widget instagram_feeds">
         <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
         <ul class="instagram_row flex-wrap">
             <li>
@@ -148,7 +148,7 @@
                 </a>
             </li>
         </ul>
-    </aside>
+    </aside> -->
     <!-- <aside class="single_sidebar_widget newsletter_widget">
         <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
         <form action="#">
