@@ -11,7 +11,7 @@
                 </div> 
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row team-box justify-content-center">
             
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">

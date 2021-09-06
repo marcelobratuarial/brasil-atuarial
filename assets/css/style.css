@@ -4711,6 +4711,11 @@ hr {
 	padding-bottom: 30px
 }
 
+@media (max-width: 900px) {
+	.team-box {
+		flex-direction: column-reverse;
+	}
+}
 @media (min-width: 900px) {
 	.blog_categorie_area {
 		padding-top: 80px;

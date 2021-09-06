@@ -18,7 +18,7 @@
                         <span class="flaticon-web-design"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Consultoria</a></h5>
+                        <h5><a  href="#">Rateio: Cálculo e Implementação</a></h5>
                         <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
                         <a href="#" class="read-more1">Leia Mais ></a>
                     </div>
@@ -30,7 +30,7 @@
                         <span class="flaticon-education"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Cursos e Palestras</a></h5>
+                        <h5><a  href="#">Laudo Atuarial</a></h5>
                         <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
                         <a  href="#" class="read-more1">Leia Mais ></a>
                     </div>
@@ -42,7 +42,7 @@
                         <span class="flaticon-communications"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Brasil Benefícios</a></h5>
+                        <h5><a  href="#">Laudo Financeiro</a></h5>
                         <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
                         <a  href="#" class="read-more1">Leia Mais ></a>
                     </div>
@@ -54,13 +54,37 @@
                         <span class="flaticon-computing"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Brasil Plataformas</a></h5>
+                        <h5><a  href="#">Cálculo da Tabela de Mensalidade</a></h5>
                         <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
                         <a  href="#" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-cat mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-business"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a  href="#">Cálculo da Reserva de Ruína</a></h5>
+                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
+                        <a  href="#" class="read-more1">Leia Mais ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-cat mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-business"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a  href="#">Entendendo o Mercado de Automóveis</a></h5>
+                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
+                        <a  href="#" class="read-more1">Leia Mais ></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-cat mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-tools-and-utensils"></span>
@@ -72,19 +96,8 @@
                         <a  href="<?= base_url('solucoes/dygo') ?>" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
-                    <div class="cat-icon">
-                        <span class="flaticon-business"></span>
-                    </div>
-                    <div class="cat-cap">
-                        <h5><a  href="#">Agência Brasil Digital</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                        <a  href="#" class="read-more1">Leia Mais ></a>
-                    </div>
-                </div>
-            </div>
+            </div> -->
+            
         </div>
         <!-- Section Button
         <div class="row">
