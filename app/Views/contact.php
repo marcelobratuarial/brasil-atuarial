@@ -109,7 +109,7 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="fab fa-whatsapp"></i></span>
                         <div class="media-body">
-                            <h3>(31) 2510-8536</h3>
+                            <h3><a href="https://wa.me/3125108536?text=Ol%C3%A1%2C%20como%20vai%3F" target="_blank">(31) 2510-8536</a></h3>
                             <p>Seg a Sex 8 às 18hs</p>
                         </div>
                     </div>
