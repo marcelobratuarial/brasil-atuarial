@@ -26,6 +26,13 @@ class Pages extends BaseController
 			// return json_encode(["method" => $this->request->getMethod() ]);
 			$email = \Config\Services::email();
 
+			// $config['protocol'] = 'sendmail';
+			// $config['mailPath'] = '/usr/sbin/sendmail';
+			// $config['charset']  = 'iso-8859-1';
+			$config['mailType'] = 'html';
+
+			$email->initialize($config);
+
 			$email->setFrom('contato@brasilatuarial.com.br', 'Formulário Site');
 			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
 			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
