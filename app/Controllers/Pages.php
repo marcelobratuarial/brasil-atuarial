@@ -38,9 +38,9 @@ class Pages extends BaseController
 				"email" => $this->request->getPost("email")
 			];
 			$message = view('mail/contato', $formData);
-			var_dump($message);exit;
+			// var_dump($message);exit;
 
-			$email->setMessage('Testing the email class.');
+			$email->setMessage($message);
 
 			$email->send();
             return json_encode(["ajax"=>TRUE]);
