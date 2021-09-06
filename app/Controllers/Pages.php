@@ -22,7 +22,24 @@ class Pages extends BaseController
 
 	public function contact()
 	{
-		return view('contact', ['main_menu' => $this->main_menu] );
+		if ($this->request->isAJAX()) {
+			// return json_encode(["method" => $this->request->getMethod() ]);
+			$email = \Config\Services::email();
+
+			$email->setFrom('marcelo@agenciabrasildigital.com.br', 'Atuarial teste');
+			$email->setTo('marcelo@agenciabrasildigital.com.br');
+			// $email->setCC('another@another-example.com');
+			// $email->setBCC('them@their-example.com');
+
+			$email->setSubject('Email Test');
+			$email->setMessage('Testing the email class.');
+
+			$email->send();
+            return json_encode(["ajax"=>TRUE]);
+        } else {
+			// return json_encode(["method" => $this->request->getMethod() ]);
+			return view('contact', ['main_menu' => $this->main_menu] );
+		}
 	}
 
 	public function courses()

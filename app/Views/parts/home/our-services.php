@@ -18,7 +18,7 @@
                         <span class="flaticon-web-design"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Rateio: Cálculo e Implementação</a></h5>
+                        <h5><a  href="#">Rateio: Cálculo e Implantação</a></h5>
                         <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
                         <a href="#" class="read-more1">Leia Mais ></a>
                     </div>

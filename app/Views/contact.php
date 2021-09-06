@@ -67,10 +67,10 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
+                    <h2 class="contact-title">Fale conosco</h2>
                 </div>
-                <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                <div class="col-lg-7">
+                    <form class="form-contact contact_form" method="post" id="contactForm" novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
@@ -98,25 +98,25 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-3 offset-lg-1">
+                <div class="col-lg-4 offset-lg-1">
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Buttonwood, California.</h3>
-                            <p>Rosemead, CA 91770</p>
+                            <h3>Avenida Sebastião de Brito, 805</h3>
+                            <p>Dona Clara - Belo Horizonte/MG</p>
                         </div>
                     </div>
                     <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <span class="contact-info__icon"><i class="fab fa-whatsapp"></i></span>
                         <div class="media-body">
-                            <h3>+1 253 565 2365</h3>
-                            <p>Mon to Fri 9am to 6pm</p>
+                            <h3>(31) 2510-8536</h3>
+                            <p>Seg a Sex 8 às 18hs</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>support@colorlib.com</h3>
+                            <h3>contato@brasilatuarial.com.br</h3>
                             <p>Send us your query anytime!</p>
                         </div>
                     </div>
