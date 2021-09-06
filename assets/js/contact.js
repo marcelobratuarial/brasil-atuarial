@@ -16,10 +16,10 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                subject: {
-                    required: true,
-                    minlength: 5
-                },
+                // subject: {
+                //     required: true,
+                //     minlength: 5
+                // },
                 // number: {
                 //     required: true,
                 //     minlength: 5
@@ -38,10 +38,10 @@ $(document).ready(function(){
                     required: "Informe seu nome",
                     // minlength: "Seu nome deve ter ao menos 4 caracteres"
                 },
-                subject: {
-                    required: "Informe um assunto",
-                    // minlength: "your subject must consist of at least 4 characters"
-                },
+                // subject: {
+                //     required: "Informe um assunto",
+                //     // minlength: "your subject must consist of at least 4 characters"
+                // },
                 // number: {
                 //     required: "come on, you have a number, don't you?",
                 //     minlength: "your Number must consist of at least 5 characters"
@@ -74,10 +74,14 @@ $(document).ready(function(){
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
+                            $('#contactModal').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#success').modal('show');
+		                	$('#contactModal').modal("show")
+
+                            $('#contactForm')[0].reset()
+                            $(this).find(':input').attr('disabled', false);
                         })
+                        
                     },
                     error: function() {
                         console.log("erro")
