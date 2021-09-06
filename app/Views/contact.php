@@ -117,7 +117,7 @@
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
                             <h3>contato@brasilatuarial.com.br</h3>
-                            <p>Send us your query anytime!</p>
+                            <p>Envie-nos uma consulta a qualquer momento!</p>
                         </div>
                     </div>
                 </div>

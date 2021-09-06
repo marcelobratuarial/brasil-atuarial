@@ -32,6 +32,14 @@ class Pages extends BaseController
 			// $email->setBCC('them@their-example.com');
 
 			$email->setSubject('Nova mensagem | Formulário de Contato Brasil Atuarial');
+			$formData = [
+				"mensagem" => $this->request->getPost("message"),
+				"nome" => $this->request->getPost("name"),
+				"email" => $this->request->getPost("email")
+			];
+			$message = view('mail/contato', $formData);
+			var_dump($message);exit;
+
 			$email->setMessage('Testing the email class.');
 
 			$email->send();
