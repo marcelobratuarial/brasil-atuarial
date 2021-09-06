@@ -30,7 +30,7 @@ class Pages extends BaseController
 			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
 			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
 			// $email->setBCC('them@their-example.com');
-			$email->mailType('html');
+			// $email->mailType('html');
 
 			$email->setSubject('Nova mensagem | Formulário de Contato Brasil Atuarial');
 			$formData = [
