@@ -26,12 +26,12 @@ class Pages extends BaseController
 			// return json_encode(["method" => $this->request->getMethod() ]);
 			$email = \Config\Services::email();
 
-			$email->setFrom('marcelo@agenciabrasildigital.com.br', 'Atuarial teste');
-			$email->setTo('marcelo@agenciabrasildigital.com.br');
-			// $email->setCC('another@another-example.com');
+			$email->setFrom('contato@brasilatuarial.com.br', 'Formulário Site');
+			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
+			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
 			// $email->setBCC('them@their-example.com');
 
-			$email->setSubject('Email Test');
+			$email->setSubject('Nova mensagem | Formulário de Contato Brasil Atuarial');
 			$email->setMessage('Testing the email class.');
 
 			$email->send();
