@@ -57,7 +57,7 @@
                             },
                             zoom: 17,
                             styles: grayStyles,
-                            scrollwheel: true
+                            scrollwheel: false
                         });
                     }
                 </script>
