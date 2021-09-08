@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div style="text-align: center">
-        
-        <h2>Brasil Atuarial</h2>
-        <h3>Dados da mensagem:</h3>
-        <div>
-           
-        </div>
-    </div>
-    
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
@@ -199,6 +168,7 @@ img[class="image"] {
       <?php /* <p style="font-family:sans-serif;font-size: 14px !important;margin-top: 15px; margin-bottom: 15px;line-height: 1.4 !important;">We're happy to announce that the creative companies you have trusted for years – including Comp24, AdProps and Dennis Curtin Studio – are now joined together under one powerful brand-imaging studio: <a href="http://coloredge.com" title="Coloredge" style="color:#f0782d;font-weight: bold;text-decoration:none;">Coloredge</a>.</p> 
       <p style="font-family:sans-serif;font-size: 14px !important;margin-top: 15px; line-height: 1.4;">Our exceptionally talented teams, with their unrivaled craftsmanship, are ready to meet your most demanding creative production needs.</p><br>
       */ ?>
+      <hr style="border-bottom: solid 1px #000; border-top: 0;">
         <p>
             Nome: <strong><?= $nome ?></strong>
         </p>
