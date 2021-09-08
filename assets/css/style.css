@@ -4259,7 +4259,13 @@ hr {
 	-o-transition: all .4s ease-out 0s;
 	transition: all .4s ease-out 0s
 }
-
+.blog-img img {
+	object-fit: cover;
+	max-height: 250px;
+}
+.blog-cap p > a {
+	color: #1E4F8C
+}
 .home-blog-area .home-blog-single .blog-img-cap .blog-img {
 	overflow: hidden;
 	position: relative

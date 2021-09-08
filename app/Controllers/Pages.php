@@ -12,18 +12,65 @@ class Pages extends BaseController
 	public function index()
 	{
 		// print_r($this->main_menu);exit;
-		$postsModel = model('App\Models\PostsModel');
-		$lastPosts = $postsModel->select('p.id as id, p.post_title, p.created_at as created, p.updated_at as updated, i.image_path as imagem', false)
-		->from("posts as p", true)
 
+		$postsModel = model('App\Models\PostsModel');
+
+		$db = db_connect();
+        // $query = $db->query('SELECT pc.*, c.category, count(pc.cid) as "PostCount" FROM `post_categories` pc inner join categories as c on c.id = pc.cid inner join posts as p on p.id = pc.pid group by pc.cid');
+        $query = $db->query('select c.*, count(pc.cid) as catCount from categories c left join post_categories as pc on pc.cid = c.id join posts as p on p.id = pc.pid where p.status = 1 group by c.id order by c.id DESC');
+        // $$query->getResultArray());
+        $cats = $query->getResultArray();
+
+		
+		$postsModel->select('p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes', false)
+		->from("posts as p", true)
+		->join('post_categories as pc', 'pc.pid = p.id', 'left')
+		->join('categories as c', 'c.id = pc.cid', 'left')
 		->join('images as i', 'i.owner_id = p.id', 'left')
-		->where('p.status', 1)
+		->where('p.status', 1);
+		// if($cat !== null ) {
+		// 	$postsModel->where('c.slug', $cat);
+		// } 
+		$posts = $postsModel
+		->groupBy('p.id')
+		->orderBy('p.created_at', 'DESC')
+		// ->getCompiledSelect();
 		
 		->limit(2)->get()->getResultArray();
-		foreach($lastPosts as $k=> $p) {
-			$lastPosts[$k]['teste'] = $this->dateToTimeConvert($p['created']);
+		// echo "<pre>";
+		// print_r($posts);
+		// echo "</pre>";
+		$catList = [];
+		foreach ($cats as $c) {
+			// print_r($c);
+			$catList[$c["id"]] = slugify($c["category"]);
+			$catList[$c["id"]] = $c["category"];
 		}
-		return view('home', ['main_menu' => $this->main_menu, "lastPosts" => $lastPosts]);
+
+		foreach ($posts as $k => $p) {
+			if(!isset($posts[$k]["categorias"])) {
+				$posts[$k]["categorias"] = [];
+			}
+			// $p["categoriass"][$]
+			// var_dump($p['sel_categorias']);
+			if (!empty($p['sel_categorias'])) {
+				$pCategs = explode(", ", $p['sel_categorias']);
+				foreach($pCategs as $pc) {
+					// echo $pc . "<br>";
+					$posts[$k]["categorias"][$pc] = $catList[$pc];
+				}
+			}
+			
+			// print_r($categs);
+			// echo "<pre>";
+			// print_r($pCategs); 
+			// echo "</pre>";
+			
+		}
+		// echo "<pre>";
+		// print_r($posts);
+		// echo "</pre>";
+		return view('home', ['main_menu' => $this->main_menu, "lastPosts" => $posts]);
 	}
 
 	public function about()
@@ -51,8 +98,8 @@ class Pages extends BaseController
 			$email->initialize($config);
 
 			$email->setFrom('contato@brasilatuarial.com.br', 'Formulário Site');
-			// $email->setCC('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
-			$email->setTo('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
+			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
+			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
 			// $email->setBCC('them@their-example.com');
 			// $email->mailType('html');
 

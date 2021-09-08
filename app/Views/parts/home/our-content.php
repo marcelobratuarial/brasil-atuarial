@@ -21,14 +21,24 @@
                             <img src="<?= base_url($p['imagem']) ?>" alt="">
                             <!-- Blog date -->
                             <div class="blog-date text-center">
-                                <span>24</span>
-                                <p>JUL</p>
+                                <span><?= $p['dia']; ?></span>
+                                <p><?= monthBR($p['mes']) ?></p>
                             </div>
                         </div>
                         <div class="blog-cap">
-                            <p>|   <?= $p["post_title"] ?></p>
-                            <h3><a href="blog_details.html">Como definir o valor da mensalidade</a></h3>
-                            <a href="blog_details.html" class="more-btn">Leia Mais »</a>
+                            <p>
+                            <?php 
+                            $c = 1;
+                            foreach($p["categorias"] as $id => $categoria) : ?>
+                                <a href="<?= base_url("blog/cat/".slugify($categoria)) ?> "> <?= $categoria ?></a>
+                                <?php if($c < count($p["categorias"])) :?> | 
+                                <?php endif; ?>
+                            <?php $c++;
+                                endforeach; ?>
+                            </p>
+                            
+                            <h3><a href="<?= base_url("blog/".slugify($p['post_title'])) ?>"><?= $p["post_title"] ?></a></h3>
+                            <a href="<?= base_url("blog/".slugify($p['post_title'])) ?>" class="more-btn">Leia mais »</a>
                         </div>
                     </div>
                 </div>
