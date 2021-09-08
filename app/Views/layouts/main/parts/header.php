@@ -69,15 +69,29 @@
                                             $route = "#";
                                         }
                                         echo '<li><a href="'. $route .'">'.$mm->text . '</a>';
-                                        if(isset($mm->child)) {
+                                        if(isset($mm->chield)) {
                                             echo '<ul class="submenu">';
-                                            foreach($mm->child as $cc) {
+                                            foreach($mm->chield as $cc) {
                                                 if($cc->route) {
                                                     $route = base_url($cc->route);
                                                 } else {
                                                     $route = "#";
                                                 }
-                                                echo '<li><a href="'. $route .'">'.$cc->text . '</a></li>';
+                                                echo '<li><a href="'. $route .'">'.$cc->text . '</a>';
+                                                if(isset($cc->chield)) {
+                                                    echo '<ul class="subsubmenu">';
+                                                    foreach($cc->chield as $ccc) {
+                                                        if($ccc->route) {
+                                                            $route = base_url($ccc->route);
+                                                        } else {
+                                                            $route = "#";
+                                                        }
+                                                        echo '<li><a href="'. $route .'">'.$ccc->text . '</a></li>';
+                                                    }
+                                                    echo "</ul></li>";
+                                                } else {
+                                                    echo '</li>';
+                                                }
                                             }
                                             echo "</ul></li>";
                                         } else {

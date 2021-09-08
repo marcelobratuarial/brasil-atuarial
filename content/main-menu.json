@@ -8,28 +8,26 @@
         "route": "/sobre"
     },      
     {
-        "text": "Soluções",
+        "text": "Serviços",
         "route": null,
-        "child": [
+        "chield": [
             {
-                "text": "Consultoria Atuarial",
-                "route": "/solucoes/brasil-atuarial"
+                "text": "Para Entidades do 3º Setor",
+                "route": "/servicos/para-entidades-do-3-setor",
+                "chield": [
+                    {
+                        "text": "Terceiro Submenu Exemplo",
+                        "route": null
+                    }
+                ]
             },
             {
-                "text": "Plataformas personalizadas",
-                "route": "/solucoes/brasil-plataformas"
+                "text": "Para Insurtechs",
+                "route": "/servicos/para-insurtechs"
             },
             {
-                "text": "Agência Digital",
-                "route": "/solucoes/agencia-brasil-digital"
-            },
-            {
-                "text": "Universidade Corporativa",
-                "route": "/solucoes/dygo"
-            },
-            {
-                "text": "Cursos e palestras",
-                "route": "/solucoes/cursos-palestras"
+                "text": "Para Seguradoras",
+                "route": "/servicos/para-seguradoras"
             }
         ]
     },      

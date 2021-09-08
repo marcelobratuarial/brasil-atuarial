@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 text-center">
-                            <h2>Contact Us</h2>
+                            <h2>Fale conosco</h2>
                         </div>
                     </div>
                 </div>
