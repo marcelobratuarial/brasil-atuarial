@@ -11,12 +11,12 @@
                 </div> 
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row team-box justify-content-center">
             
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">
                     <div class="team-img">
-                        <img src="<?= base_url("assets/img/temp/tamiris.jpg") ?>" alt="">
+                        <img src="<?= base_url("assets/img/temp/tamires.jpg") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -25,8 +25,8 @@
                         </ul>
                     </div>
                     <div class="team-caption">
-                        <h3><a href="instructor.html">Tamíris</a></h3>
-                        <p>Cofundador</p>
+                        <h3><a href="instructor.html">Tamires Lamon</a></h3>
+                        <p>Sócia</p>
                         <div class="team-content" style="text-align: left; padding: 10px 22px;">
                             <p>
                                 Graduada em Ciências Atuariais pela Pontifícia Universidade Católica de Minas Gerais – PUCMG, Pós Graduada em Estatística pela Universidade Federal de Minas Geras – UFMG e MBA em Controladoria e Finanças pela Cruzeiro do Sul.

@@ -14,16 +14,16 @@ $(document).ready(function(){
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
-                },
-                subject: {
-                    required: true,
                     minlength: 4
                 },
-                number: {
-                    required: true,
-                    minlength: 5
-                },
+                // subject: {
+                //     required: true,
+                //     minlength: 5
+                // },
+                // number: {
+                //     required: true,
+                //     minlength: 5
+                // },
                 email: {
                     required: true,
                     email: true
@@ -35,19 +35,19 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Informe seu nome",
+                    // minlength: "Seu nome deve ter ao menos 4 caracteres"
                 },
-                subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
-                },
-                number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
-                },
+                // subject: {
+                //     required: "Informe um assunto",
+                //     // minlength: "your subject must consist of at least 4 characters"
+                // },
+                // number: {
+                //     required: "come on, you have a number, don't you?",
+                //     minlength: "your Number must consist of at least 5 characters"
+                // },
                 email: {
-                    required: "no email, no message"
+                    required: "Um e-mail válido é obrigatório."
                 },
                 message: {
                     required: "um...yea, you have to write something to send this form.",
@@ -55,21 +55,36 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
-                $(form).ajaxSubmit({
+                // var data = {
+                //     name: $("#name").val(),
+                //     email: $("#email").val(),
+                //     subject: $("#subject").val(),
+                //     message: $("#message").val()
+                // } 
+                var data = $(form).serializeArray()
+                console.log(data)
+
+                $.ajax({
                     type:"POST",
-                    data: $(form).serialize(),
-                    url:"contact_process.php",
+                    data: data,
+                    url: base_url + "/contact/send",
+                    // dataType: 'json',
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
+                            $('#contactModal').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#success').modal('show');
+		                	$('#contactModal').modal("show")
+
+                            $('#contactForm')[0].reset()
+                            $(this).find(':input').attr('disabled', false);
                         })
+                        
                     },
                     error: function() {
+                        console.log("erro")
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');

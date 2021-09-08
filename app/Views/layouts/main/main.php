@@ -204,6 +204,8 @@
     <!-- Jquery Plugins, main Jquery -->	
     <script src="<?= base_url("./assets/js/plugins.js") ?>"></script>
     <script src="<?= base_url("./assets/js/main.js") ?>"></script>
-    
+    <script>
+        var base_url = '<?= base_url('/') ?>';
+    </script>
     </body>
 </html>

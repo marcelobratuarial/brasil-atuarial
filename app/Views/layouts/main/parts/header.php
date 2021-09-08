@@ -21,10 +21,10 @@
                 <!-- Left Social -->
                 <div class="header-left-social">
                     <ul class="header-social">    
-                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                        <li><a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/3125108536?text=Ol%C3%A1%2C%20como%20vai%3F" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.facebook.com/brasilatuarialbh"><i class="fab fa-facebook-f"></i></a></li>
+                        <!-- <li><a href="https://www."><i class="fab fa-linkedin-in"></i></a></li> -->
+                        <li> <a href="https://www.instagram.com/brasilatuarial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <div class="container">

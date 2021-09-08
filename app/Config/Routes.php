@@ -61,6 +61,7 @@ $routes->get('/blog/cat/(:any)', 'Pages::blog/$1');
 $routes->get('/blog', 'Pages::blog');
 $routes->get('/blog/(:any)', 'Pages::blogPost/$1');
 $routes->get('/contato', 'Pages::contact');
+$routes->post('/contact/send', 'Pages::contact');
 
 /*
  * --------------------------------------------------------------------

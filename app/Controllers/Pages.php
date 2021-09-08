@@ -22,7 +22,40 @@ class Pages extends BaseController
 
 	public function contact()
 	{
-		return view('contact', ['main_menu' => $this->main_menu] );
+		if ($this->request->isAJAX()) {
+			// return json_encode(["method" => $this->request->getMethod() ]);
+			$email = \Config\Services::email();
+
+			// $config['protocol'] = 'sendmail';
+			// $config['mailPath'] = '/usr/sbin/sendmail';
+			// $config['charset']  = 'iso-8859-1';
+			$config['mailType'] = 'html';
+
+			$email->initialize($config);
+
+			$email->setFrom('contato@brasilatuarial.com.br', 'Formulário Site');
+			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
+			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
+			// $email->setBCC('them@their-example.com');
+			// $email->mailType('html');
+
+			$email->setSubject('Nova mensagem | Formulário de Contato Brasil Atuarial');
+			$formData = [
+				"mensagem" => $this->request->getPost("message"),
+				"nome" => $this->request->getPost("name"),
+				"email" => $this->request->getPost("email")
+			];
+			$message = view('mail/contato', $formData);
+			// var_dump($message);exit;
+
+			$email->setMessage($message);
+
+			$email->send();
+            return json_encode(["ajax"=>TRUE]);
+        } else {
+			// return json_encode(["method" => $this->request->getMethod() ]);
+			return view('contact', ['main_menu' => $this->main_menu] );
+		}
 	}
 
 	public function courses()
