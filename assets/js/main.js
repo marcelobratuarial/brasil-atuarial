@@ -200,4 +200,14 @@
   $('#timepicker').timepicker();
 
 
+  $(".search-icon").on('click', function() {
+    $("#search-form").trigger('submit');
+  });
+  $("#search-form").on('submit', function (e) {
+    e.preventDefault();
+    var term = $("#search-term").val();
+    window.location.href = base_url + '/blog/q/'+term
+    // console.log('teste', term);
+  });
+
 })(jQuery);

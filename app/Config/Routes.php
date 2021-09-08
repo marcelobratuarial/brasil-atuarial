@@ -57,6 +57,7 @@ $routes->get('/sobre', 'Pages::about', ['as' => 'ab']);
 $routes->get('/cursos-palestras', 'Pages::courses');
 $routes->get('/solucoes', 'Pages::solutions');
 $routes->get('/solucoes/dygo', 'Pages::dygo', ['as' => 'dygo']);
+$routes->get('/blog/q/(:any)', 'Pages::find/$1');
 $routes->get('/blog/cat/(:any)', 'Pages::blog/$1');
 $routes->get('/blog', 'Pages::blog');
 $routes->get('/blog/(:any)', 'Pages::blogPost/$1');

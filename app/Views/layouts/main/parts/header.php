@@ -122,8 +122,8 @@
                         
                         <!-- Header-btn -->
                         <div class="header-search d-none d-lg-block">
-                            <form action="#" class="form-box f-right ">
-                                <input type="text" name="Search" placeholder="Pesquisar">
+                            <form id="search-form" action="#" class="form-box f-right ">
+                                <input type="text" name="Search" value="<?= (isset($query)) ? $query : ''?>" id="search-term" placeholder="Pesquisar">
                                 <div class="search-icon">
                                     <i class="fas fa-search special-tag"></i>
                                 </div>

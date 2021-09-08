@@ -29,6 +29,7 @@
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
                         <?php
+                        if(count($posts) > 0) :
                             foreach($posts as $p) :
                                 // print_r($p);
                         ?>
@@ -55,6 +56,12 @@
                             </div>
                         </article>
                         <?php endforeach; ?>
+                        <?php elseif(!empty($query)) : ?>
+                            <h2>Pesquisa por</h2>
+                            Nenhum resultado para sua pesquisa
+                        <?php else : ?>
+                            Não há posts
+                        <?php endif; ?>
                         <?= $pager->links(false, 'default_bratuarial') ?>
                         
                     </div>

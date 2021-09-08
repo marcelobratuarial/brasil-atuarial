@@ -6,8 +6,19 @@ use CodeIgniter\I18n\Time;
 class Pages extends BaseController
 {
 	protected $main_menu;
+	protected $query;
 	function __construct() {
 		$this->main_menu = json_decode(file_get_contents(FCPATH .'content/main-menu.json'));
+		$uri = current_url(true);
+
+		list($t, $q) = array_pad(explode("/q/", $uri), 2, null);
+		
+		if(!empty($q))  {
+			// echo "SET";
+			$this->query = $q;
+		} else {
+			$this->query = '';
+		}
 	}
 	public function index()
 	{
@@ -134,6 +145,116 @@ class Pages extends BaseController
 	public function dygo()
 	{
 		return view('dygo', ['main_menu' => $this->main_menu] );
+	}
+
+	public function find($q = null)
+	{
+		
+		// print_r($cat);
+		// exit;
+
+		// $pager = \Config\Services::pager();
+		// helper("slugurl");
+		// helper("monthficator");
+		// Create a shared instance of the model
+		$postsModel = model('App\Models\PostsModel');
+		// $p = $postsModel->select('p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes', false)
+		// ->from("posts as p", true)
+		// ->join('post_categories as pc', 'pc.pid = p.id', 'left')
+		// ->join('categories as c', 'c.id = pc.cid', 'left')
+		// ->join('images as i', 'i.owner_id = p.id', 'left')
+		// ->where('p.status', 1)
+		// ->groupBy('p.id')
+		// // ->getCompiledSelect();
+		// ->paginate(10);
+		// ->get();
+		// echo "<pre>";
+		// print_r($p);
+		// echo "</pre>";exit;
+		$db = db_connect();
+        // $query = $db->query('SELECT pc.*, c.category, count(pc.cid) as "PostCount" FROM `post_categories` pc inner join categories as c on c.id = pc.cid inner join posts as p on p.id = pc.pid group by pc.cid');
+        $query = $db->query('select c.*, count(pc.cid) as catCount from categories c left join post_categories as pc on pc.cid = c.id join posts as p on p.id = pc.pid where p.status = 1 group by c.id order by c.id DESC');
+        // $$query->getResultArray());
+        $cats = $query->getResultArray();
+		
+		// $query = $db->query('select p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes from posts p left join post_categories as pc on pc.pid = p.id left join categories as c on c.id = pc.cid left join images as i on i.owner_id = p.id where status = 1 group by p.id');
+        // , GROUP_CONCAT(c.category SEPARATOR ", ") as categorias
+		// $$query->getResultArray());
+        // $posts = $query->getResultArray();
+		$postsModel->select('p.id as id, p.post_title, p.post_content, p.status, DATE_FORMAT(p.created_at, "%d/%m/%Y %H:%m:%s") as created, DATE_FORMAT(p.updated_at, "%d/%m/%Y %H:%m:%s") as updated, GROUP_CONCAT(c.id SEPARATOR ", ") as sel_categorias, i.image_path as imagem, DATE_FORMAT(p.created_at, "%d") as dia, DATE_FORMAT(p.created_at, "%m") as mes', false)
+		->from("posts as p", true)
+		->join('post_categories as pc', 'pc.pid = p.id', 'left')
+		->join('categories as c', 'c.id = pc.cid', 'left')
+		->join('images as i', 'i.owner_id = p.id', 'left')
+		->where('p.status', 1);
+		if($q !== null ) {
+			$postsModel->like('p.post_title', $q, "%")
+			->orLike('p.post_content', $q, "%");
+		} 
+		$posts = $postsModel
+		->groupBy('p.id')
+		// ->getCompiledSelect();
+		->paginate(5, false);
+		// $selCategorias = explode(", ", $posts[0]["sel_categorias"]);
+        
+        // $OrderedCats = [];
+        // $toEnd = [];
+        // foreach($cats as $c) {
+        //     // echo "<pre>";
+        //     // print_r($c['id']);
+        //     // echo "</pre>";
+        //     if(in_array($c['id'], $selCategorias)) {
+        //         $OrderedCats[] = $c;
+        //     } else {
+        //         $toEnd[] = $c;
+        //     }
+        // }
+        // $OrderedCats = array_merge($OrderedCats, $toEnd);
+		$catList = [];
+		foreach ($cats as $c) {
+			// print_r($c);
+			$catList[$c["id"]] = slugify($c["category"]);
+			$catList[$c["id"]] = $c["category"];
+		}
+        // echo "<pre>";
+        // print_r($cats);
+        // // print_r($OrderedCats);
+        // echo "</pre>"; exit;
+		
+		foreach ($posts as $k => $p) {
+			if(!isset($posts[$k]["categorias"])) {
+				$posts[$k]["categorias"] = [];
+			}
+			// $p["categoriass"][$]
+			// var_dump($p['sel_categorias']);
+			if (!empty($p['sel_categorias'])) {
+				$pCategs = explode(", ", $p['sel_categorias']);
+				foreach($pCategs as $pc) {
+					// echo $pc . "<br>";
+					$posts[$k]["categorias"][$pc] = $catList[$pc];
+				}
+			}
+			
+			// print_r($categs);
+			// echo "<pre>";
+			// print_r($pCategs); 
+			// echo "</pre>";
+			
+		}
+
+		
+		$postsModel = model('App\Models\PostsModel');
+		$lastPosts = $postsModel->select('p.id as id, p.post_title, p.created_at as created, p.updated_at as updated, i.image_path as imagem', false)
+		->from("posts as p", true)
+
+		->join('images as i', 'i.owner_id = p.id', 'left')
+		->where('p.status', 1)
+		
+		->limit(5)->get()->getResultArray();
+		foreach($lastPosts as $k=> $p) {
+			$lastPosts[$k]['teste'] = $this->dateToTimeConvert($p['created']);
+		}
+		return view('blog', ['main_menu' => $this->main_menu, 'query'=>$this->query, 'cats'=>$cats, "posts"=> $posts, 'pager' => $postsModel->pager, "lastPosts" => $lastPosts] );
 	}
 
 	public function blog($cat = null)
