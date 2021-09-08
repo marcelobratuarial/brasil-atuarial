@@ -6,7 +6,7 @@
     {
         "text": "Sobre",
         "route": "/sobre"
-    },      
+    },
     {
         "text": "Serviços",
         "route": null,
@@ -22,8 +22,14 @@
                 ]
             },
             {
-                "text": "Para Insurtechs",
-                "route": "/servicos/para-insurtechs"
+                "text": "Plataformas personalizadas",
+                "route": null,
+                "child": [
+                    {
+                        "text": "Consultoria Atuarial",
+                        "route": "/solucoes/brasil-atuarial"
+                    }
+                ]
             },
             {
                 "text": "Para Seguradoras",

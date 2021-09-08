@@ -12,7 +12,18 @@ class Pages extends BaseController
 	public function index()
 	{
 		// print_r($this->main_menu);exit;
-		return view('home', ['main_menu' => $this->main_menu]);
+		$postsModel = model('App\Models\PostsModel');
+		$lastPosts = $postsModel->select('p.id as id, p.post_title, p.created_at as created, p.updated_at as updated, i.image_path as imagem', false)
+		->from("posts as p", true)
+
+		->join('images as i', 'i.owner_id = p.id', 'left')
+		->where('p.status', 1)
+		
+		->limit(2)->get()->getResultArray();
+		foreach($lastPosts as $k=> $p) {
+			$lastPosts[$k]['teste'] = $this->dateToTimeConvert($p['created']);
+		}
+		return view('home', ['main_menu' => $this->main_menu, "lastPosts" => $lastPosts]);
 	}
 
 	public function about()
@@ -22,6 +33,12 @@ class Pages extends BaseController
 
 	public function contact()
 	{
+		// $formData = [
+		// 	"mensagem" => "Marcelo testando",
+		// 	"nome" => "Marcelo",
+		// 	"email" => "marcelo@..."
+		// ];
+		// return view('mail/contato', $formData);
 		if ($this->request->isAJAX()) {
 			// return json_encode(["method" => $this->request->getMethod() ]);
 			$email = \Config\Services::email();
@@ -34,12 +51,12 @@ class Pages extends BaseController
 			$email->initialize($config);
 
 			$email->setFrom('contato@brasilatuarial.com.br', 'Formulário Site');
-			$email->setTo('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
-			$email->setCC('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
+			// $email->setCC('enrico.neto@brasilatuarial.com.br', "Enrico Neto");
+			$email->setTo('marcelo@agenciabrasildigital.com.br', "Marcelo Dênis");
 			// $email->setBCC('them@their-example.com');
 			// $email->mailType('html');
 
-			$email->setSubject('Nova mensagem | Formulário de Contato Brasil Atuarial');
+			$email->setSubject('Nova mensagem | Contato Brasil Atuarial');
 			$formData = [
 				"mensagem" => $this->request->getPost("message"),
 				"nome" => $this->request->getPost("name"),
