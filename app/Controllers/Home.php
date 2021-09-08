@@ -10,7 +10,6 @@ class Home extends BaseController
 	}
 	public function home()
 	{
-		php_info();exit;
 		return view('home');
 	}
 }
