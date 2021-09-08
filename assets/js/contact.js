@@ -16,10 +16,10 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                // subject: {
-                //     required: true,
-                //     minlength: 5
-                // },
+                empresa: {
+                    required: true,
+                    minlength: 5
+                },
                 // number: {
                 //     required: true,
                 //     minlength: 5
@@ -36,22 +36,23 @@ $(document).ready(function(){
             messages: {
                 name: {
                     required: "Informe seu nome",
-                    // minlength: "Seu nome deve ter ao menos 4 caracteres"
+                    minlength: "Seu nome deve ter ao menos 4 caracteres"
                 },
-                // subject: {
-                //     required: "Informe um assunto",
-                //     // minlength: "your subject must consist of at least 4 characters"
-                // },
+                empresa: {
+                    required: "Informe o nome da sua empresa",
+                    minlength: ""
+                },
                 // number: {
                 //     required: "come on, you have a number, don't you?",
                 //     minlength: "your Number must consist of at least 5 characters"
                 // },
                 email: {
-                    required: "Um e-mail válido é obrigatório."
+                    required: "Um e-mail válido é obrigatório.",
+                    email: 'Digite um email válido'
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Uma mensagem é obrigatória.",
+                    minlength: "Mensagem muito curta"
                 }
             },
             submitHandler: function(form) {
