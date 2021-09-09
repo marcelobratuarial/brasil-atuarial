@@ -14,7 +14,7 @@
             {
                 "text": "Para Entidades do 3º Setor",
                 "route": "/servicos/para-entidades-do-3-setor",
-                "chield": [
+                "chieeld": [
                     {
                         "text": "Terceiro Submenu Exemplo",
                         "route": null
@@ -22,18 +22,22 @@
                 ]
             },
             {
+                "text": "Para Seguradoras",
+                "route": "/servicos/para-seguradoras"
+            },
+            {
+                "text": "Para Insurtechs",
+                "route": "/servicos/para-insurtechs"
+            },
+            {
                 "text": "Plataformas personalizadas",
-                "route": null,
-                "child": [
+                "route": "/servicos/plataformas-personalizadas",
+                "chieeld": [
                     {
                         "text": "Consultoria Atuarial",
                         "route": "/solucoes/brasil-atuarial"
                     }
                 ]
-            },
-            {
-                "text": "Para Seguradoras",
-                "route": "/servicos/para-seguradoras"
             }
         ]
     },      

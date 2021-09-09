@@ -7242,3 +7242,10 @@ del {
 .feature-img img {
 	width: 100%;
 }
+
+.box-services {
+	padding: 0px 50px 50px 50px;
+}
+.box-services p {
+	text-align: justify;
+}

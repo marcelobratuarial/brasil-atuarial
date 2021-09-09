@@ -28,15 +28,27 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="about-details-cap mb-50">
-                        <h4>Our Mission</h4>
-                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                        <h4>Sobre</h4>
+                        <p>
+                            A <strong>Brasil Atuarial</strong> é uma empresa especializada na prestação de serviços de assessoria e de consultoria atuarial. Fundada em 2014, com o
+                            propósito bem definido de oferecer soluções estratégicas e customizadas à necessidade de cada um dos nossos clientes, bem como objetiva
+                            suprir as demandas atuariais nas áreas de seguros e de entidades de autogestão de planos contra riscos patrimoniais, oferecendo todo o
+                            suporte técnico-atuarial e operacional necessários.
                         </p>
-                        <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                        <!-- <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p> -->
                     </div>
 
                     <div class="about-details-cap mb-50">
-                        <h4>Our Vision</h4>
-                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                        <h4>Missão</h4>
+                        <p>
+                        Ofertar serviços em assessoria e consultoria atuarial que atendam as necessidades dos nossos clientes segundo princípios éticos e
+profissionais.
+                        </p>
+                    </div>
+                    <div class="about-details-cap mb-50">
+                        <h4>Valores</h4>
+                        <p>
+                        Ética, sigilo, compromisso, responsabilidade e experiência.
                         </p>
                     </div>
                 </div>

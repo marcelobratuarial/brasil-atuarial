@@ -89,6 +89,18 @@ class Pages extends BaseController
 		return view('about', ['main_menu' => $this->main_menu]);
 	}
 
+	public function servicos($slug = null)
+	{
+		if(!empty($slug)) {
+			$content = json_decode(file_get_contents(FCPATH .'content/content-servicos.json'), true);
+			if(isset($content[$slug])) {
+				$sContent = $content[$slug];
+			} else { throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(); }
+		} else { throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(); }
+		
+		return view('services', ['main_menu' => $this->main_menu, 'cont' => $sContent]);
+	}
+
 	public function contact()
 	{
 		// $formData = [
