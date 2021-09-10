@@ -89,12 +89,15 @@ class Pages extends BaseController
 		return view('about', ['main_menu' => $this->main_menu]);
 	}
 
-	public function servicos($slug = null)
+	public function servicos($serv_slug = null, $content_slug = null)
 	{
-		if(!empty($slug)) {
+		if(!empty($content_slug)) {
+			echo "Content";exit;
+		}
+		if(!empty($serv_slug)) {
 			$content = json_decode(file_get_contents(FCPATH .'content/content-servicos.json'), true);
-			if(isset($content[$slug])) {
-				$sContent = $content[$slug];
+			if(isset($content[$serv_slug])) {
+				$sContent = $content[$serv_slug];
 			} else { throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(); }
 		} else { throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(); }
 		

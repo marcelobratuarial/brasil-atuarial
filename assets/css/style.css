@@ -3464,7 +3464,8 @@ hr {
 
 .about-details .about-details-cap p {
 	color: #464d65;
-	font-size: 16px
+	font-size: 16px;
+	text-align: justify;
 }
 
 .popular-course .single-course,
@@ -7247,5 +7248,8 @@ del {
 	padding: 0px 50px 50px 50px;
 }
 .box-services p {
+	text-align: justify;
+}
+.cat-cap {
 	text-align: justify;
 }

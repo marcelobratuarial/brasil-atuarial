@@ -58,6 +58,7 @@ $routes->get('/cursos-palestras', 'Pages::courses');
 $routes->get('/servicos', 'Pages::solutions');
 $routes->get('/servicos/dygo', 'Pages::dygo', ['as' => 'dygo']);
 $routes->get('/servicos/(:any)', 'Pages::servicos/$1');
+$routes->get('/servicos/(:any)/(:any)', 'Pages::servicos/$1/$2');
 // $routes->get('/servicos/para-entidades-do-3-setor', 'Pages::entidades3Setor', ['as' => 'entidades3setor']);
 // $routes->get('/servicos/para-seguradoras', 'Pages::seguradoras', ['as' => 'seguradoras']);
 // $routes->get('/servicos/para-insurtechs', 'Pages::insurtechs', ['as' => 'insurtechs']);

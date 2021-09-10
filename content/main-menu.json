@@ -28,16 +28,6 @@
             {
                 "text": "Para Insurtechs",
                 "route": "/servicos/para-insurtechs"
-            },
-            {
-                "text": "Plataformas personalizadas",
-                "route": "/servicos/plataformas-personalizadas",
-                "chieeld": [
-                    {
-                        "text": "Consultoria Atuarial",
-                        "route": "/solucoes/brasil-atuarial"
-                    }
-                ]
             }
         ]
     },      
