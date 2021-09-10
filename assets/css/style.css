@@ -2941,6 +2941,22 @@ hr {
 	}
 }
 
+.slider-height5 {
+	background-image: url(../img/hero/blog.jpg);
+	min-height: 355px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover
+}
+
+.slider-height4 {
+	background-image: url(../img/hero/servicos.jpg);
+	min-height: 355px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover
+}
+
 .slider-height3 {
 	background-image: url(../img/hero/about.jpg);
 	min-height: 355px;

@@ -9,7 +9,7 @@
     <?php //print_r($posts); ?>
     <!--? Hero Start -->
     <div class="slider-area ">
-        <div class="slider-height2 d-flex align-items-center">
+        <div class="slider-height5 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
