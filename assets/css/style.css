@@ -2510,7 +2510,10 @@ hr {
 }
 
 .header-area .header-top .header-left-social {
-	float: left
+	float: left;
+	width: 224px;
+	position: relative;
+	z-index: 888;
 }
 
 .header-area .header-top .header-left-social .header-social {
@@ -2610,7 +2613,7 @@ hr {
 
 .header-area .header-bottom .logo {
 	float: left;
-	padding: 35px 72px;
+	padding: 30px 72px;
 	text-align: center;
 	background: #f4f4f4
 }
@@ -2631,7 +2634,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header-area .header-bottom .logo {
-		padding: 35px 31px;
+		padding: 30px 27px;
 		margin-right: 10px
 	}
 }
@@ -3131,16 +3134,40 @@ hr {
 	}
 }
 
-.categories-area .single-cat {
+.categories-area .single-cat  {
 	border: 1px solid #ddd;
-	padding: 52px 50px;
+	padding: 52px 30px;
 	-webkit-transition: all .4s ease-out 0s;
 	-moz-transition: all .4s ease-out 0s;
 	-ms-transition: all .4s ease-out 0s;
 	-o-transition: all .4s ease-out 0s;
 	transition: all .4s ease-out 0s;
 	z-index: 1;
-	background: #ffff
+	background: #ffff;
+	position: relative;
+	
+}
+
+.categories-area .single-cat {
+	transition: transform 650ms;
+}
+
+.categories-area .single-cat:hover {
+	transform: scale(1.1);
+	
+	z-index: 9;
+	position: absolute;
+}
+.categories-area .single-cat .cat-cap {
+	max-height: 240px;
+	transition: max-height 0s ease-out;
+	transition-delay: 0ms;
+	overflow: hidden;
+}
+.categories-area .single-cat:hover .cat-cap {
+	max-height: 700px;
+    transition: max-height 0.4s ease-in;
+	
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

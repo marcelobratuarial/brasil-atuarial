@@ -36,6 +36,34 @@
                                     <li>(31) 2510-8536</li>
                                 </ul>
                             </div>
+                            <!-- <div class="header-info-right">
+                                <ul>    
+                                    <li><a href="#"><i class="ti-user"></i>Login</a></li>
+                                    <li><a href="#"><i class="ti-lock"></i>Registrar</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php /* <div class="header-top d-none d-lg-block">
+                <div class="container-fluid px-0">
+                    <div class="row header-left-social  px-0">
+                        <div class="col-md-2 px-0" style="width: 222px">
+                            <ul class="header-social">    
+                                <li><a href="https://wa.me/3125108536?text=Ol%C3%A1%2C%20como%20vai%3F" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/brasilatuarialbh"><i class="fab fa-facebook-f"></i></a></li>
+                                <!-- <li><a href="https://www."><i class="fab fa-linkedin-in"></i></a></li> -->
+                                <li> <a href="https://www.instagram.com/brasilatuarial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10 px-0">
+                            <div class="header-info-left">
+                                <ul>     
+                                    <li>contato@brasilatuarial.com.br</li>
+                                    <li>(31) 2510-8536</li>
+                                </ul>
+                            </div>
                             <div class="header-info-right">
                                 <!-- <ul>    
                                     <li><a href="#"><i class="ti-user"></i>Login</a></li>
@@ -43,9 +71,11 @@
                                 </ul> -->
                             </div>
                         </div>
+                        
                     </div>
                 </div>
-            </div>
+                
+            </div> */ ?>
             <div class="header-bottom header-sticky">
                 <!-- Logo -->
                 <div class="logo d-none d-lg-block">

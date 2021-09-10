@@ -30,9 +30,9 @@
                         <span class="flaticon-education"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Laudo Atuarial</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                        <a  href="#" class="read-more1">Leia Mais ></a>
+                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
+                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <a href="#" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
             </div>
@@ -42,9 +42,9 @@
                         <span class="flaticon-communications"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Laudo Financeiro</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                        <a  href="#" class="read-more1">Leia Mais ></a>
+                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
+                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <a href="#" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,9 @@
                         <span class="flaticon-business"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Cálculo da Reserva de Ruína</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                        <a  href="#" class="read-more1">Leia Mais ></a>
+                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
+                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <a href="#" class="read-more1">Leia Mais ></a>
                     </div>
                 </div>
             </div>
