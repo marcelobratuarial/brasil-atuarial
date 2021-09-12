@@ -47,10 +47,10 @@
                             <div class="footer-tittle">
                                 <h4>Brasil Atuarial</h4>
                                 <ul>
-                                    <li><a href="#">Sobre</a></li>
-                                    <li><a href="#">Serviços</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Fale Conosco</a></li>
+                                    <li><a href="<?= base_url("/sobre") ?>">Sobre</a></li>
+                                    <li><a href="<?= base_url("#") ?>">Serviços</a></li>
+                                    <li><a href="<?= base_url("/blog") ?>">Blog</a></li>
+                                    <li><a href="<?= base_url("/contato") ?>">Fale Conosco</a></li>
                                 </ul>
                             </div>
                         </div>
