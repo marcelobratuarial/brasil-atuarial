@@ -55,7 +55,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <!-- <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Brasil Beneficios</h4>
@@ -67,16 +67,17 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
             
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Outras Soluções</h4>
+                                <h4>CONHEÇA NOSSO GRUPO</h4>
                                 <ul>
-                                    <li><a href="#">Dygo</a></li>
-                                    <li><a href="#">Brasil Plataformas</a></li>
-                                    <li><a href="#">Agência Brasil Digital</a></li>
+                                    <li><a href="https://dygo.com.br/" target="_blank">Dygo</a></li>
+                                    <li><a href="https://brasilplataformas.com.br/site/" target="_blank">Brasil Plataformas</a></li>
+                                    <li><a href="#" target="_blank">Agência Brasil Digital</a></li>
+                                    <li><a href="https://brasilbeneficios.club/" target="_blank">Brasil Benefícios</a></li>
                                     
                                 </ul>
                             </div>
