@@ -554,6 +554,8 @@ hr {
 	font-size: 20px;
 	text-align: center;
 	border-radius: 50%;
+
+	z-index: 20;
 	line-height: 48px;
 	border: 2px solid transparent;
 	box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
@@ -585,8 +587,8 @@ hr {
 	-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 	box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 	z-index: 9999;
-	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+	/* -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown; */
+	/* animation: 300ms ease-in-out 0s normal none 1 running fadeInDown; */
 	-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 	background: #fff
 }
@@ -2055,28 +2057,28 @@ hr {
 }
 
 .section-padding2 {
-	padding-top: 200px;
-	padding-bottom: 200px
+	padding-top: 100px;
+	padding-bottom: 100px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.section-padding2 {
-		padding-top: 200px;
-		padding-bottom: 200px
+		padding-top: 100px;
+		padding-bottom: 100px
 	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.section-padding2 {
-		padding-top: 200px;
-		padding-bottom: 200px
+		padding-top: 100px;
+		padding-bottom: 100px
 	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section-padding2 {
-		padding-top: 100px;
-		padding-bottom: 100px
+		padding-top: 70px;
+		padding-bottom: 70px
 	}
 }
 
@@ -2211,14 +2213,14 @@ hr {
 }
 
 .section-padding30 {
-	padding-top: 195px;
-	padding-bottom: 180px
+	padding-top: 100px;
+	padding-bottom: 80px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.section-padding30 {
-		padding-top: 150px;
-		padding-bottom: 140px
+		padding-top: 100px;
+		padding-bottom: 100px
 	}
 }
 

@@ -6,8 +6,8 @@
             <div class="cl-xl-7 col-lg-8 col-md-10">
                 <!-- Section Tittle -->
                 <div class="section-tittle section-tittle2 text-center mb-70">
-                    <span>Atuários</span>
-                    <h2>Conheça os sócios responsáveis</h2>
+                    <!-- <span>Atuários</span> -->
+                    <h2>Responsáveis pelo projeto</h2>
                 </div> 
             </div>
         </div>

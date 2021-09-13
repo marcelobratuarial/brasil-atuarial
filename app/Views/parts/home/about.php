@@ -3,11 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <div class="about-caption mb-50">
+                <div class="about-caption mb-40">
                     <!-- Section Tittle -->
                     <div class="section-tittle mb-35">
-                        <span>Sobre o grupo</span>
-                        <h2>Brasil Atuarial</h2>
+                        <!-- <span>Sobre o grupo</span> -->
+                        <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
                     </div>
                     <p>Com intuito de conectar todos os serviços necessários para o sucesso da sua empresa, integramos ao grupo equipes e empresas para potencializar seus resultados e facilitar sua jornada. Conheça as empresas do grupo: </p>
                     <ul>

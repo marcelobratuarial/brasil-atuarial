@@ -9,7 +9,7 @@
                     <div class="row align-items-center flex-nowrap home-slider">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <div class="hero__caption">
-                                <span data-animation="fadeInLeft" class="d-none  d-lg-block" data-delay=".2s">Nós somos uma empresa de desenvolvimento de consultoria atuarial</span>
+                                <!-- <span data-animation="fadeInLeft" class="d-none  d-lg-block" data-delay=".2s">Nós somos uma empresa de desenvolvimento de consultoria atuarial</span> -->
                                 <h1 data-animation="fadeInLeft" data-delay=".4s">Um risco continua arriscado quando pode-se prevê-lo?</h1>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn d-none d-lg-block">

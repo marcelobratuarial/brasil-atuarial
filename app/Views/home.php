@@ -9,10 +9,10 @@
 <?= $this->section('content') ?>
 
     <?= $this->include('parts/home/slider') ?>
+    <?= $this->include('parts/home/about') ?>
     <?= $this->include('parts/home/our-services') ?>
     <?php // $this->include('parts/home/numbers') ?>
     <?= $this->include('parts/home/team') ?>
-    <?= $this->include('parts/home/about') ?>
     <?= $this->include('parts/home/testimonials') ?>
     <?= $this->include('parts/home/our-content') ?>
 

@@ -6,8 +6,8 @@
             <div class="cl-xl-7 col-lg-8 col-md-10">
                 <!-- Section Tittle -->
                 <div class="section-tittle text-center mb-70">
-                    <span>Nossos serviços</span>
-                    <h2>Principais Soluções</h2>
+                    <span>PRINCIPAIS SERVIÇOS</span>
+                    <h2>Isso é o que podemos proporcionar para sua Entidade</h2>
                 </div> 
             </div>
         </div>
