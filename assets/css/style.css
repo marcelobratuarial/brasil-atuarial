@@ -4330,7 +4330,7 @@ hr {
 }
 .blog-img img {
 	object-fit: cover;
-	max-height: 250px;
+	max-height: 300px;
 }
 .blog-cap p > a {
 	color: #1E4F8C

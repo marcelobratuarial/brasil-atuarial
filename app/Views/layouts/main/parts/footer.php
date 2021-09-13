@@ -31,11 +31,11 @@
                             </div>
                             <!-- Footer Social -->
                             <div class="footer-social">
-                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a  href="#"><i class="fab fa-google"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/brasilatuarialbh" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                <!-- <a  href="#"><i class="fab fa-google"></i></a> -->
+                                <a href="https://www.instagram.com/brasilatuarial/"><i class="fab fa-instagram" target="_blank"></i></a>
+                                <a href="https://www.youtube.com/channel/UCVC53Q8fHtxilxl3BqIU6DA"><i class="fab fa-youtube" target="_blank"></i></a>
                                 </div>
                         </div>
                     </div>
