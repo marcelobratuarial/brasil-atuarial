@@ -577,12 +577,19 @@ hr {
 #scrollUp:hover {
 	color: #fff
 }
-.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul.submenu {
-	background-color:rgba(50, 94, 150, 0.95);
+
+@media (min-width: 992px) {
+	.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul.submenu {
+		background:rgba(50, 94, 150, 0.95);
+	}
+	.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul#navigation li a {
+		color: #fff !important
+	}
+	.sticky-bar {
+		background:rgba(50, 94, 150, 0.9) !important;
+	}
 }
-.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul#navigation li a {
-	color: #fff !important
-}
+
 .sticky-bar {
 	left: 0;
 	margin: auto;
@@ -597,7 +604,7 @@ hr {
 	transition: background 1s ease-in;
 	-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 	/* background: rgba(255, 255, 255, 0.8); */
-	background-color:rgba(50, 94, 150, 0.9);
+	background: rgba(255, 255, 255, 0.90);
 }
 .header-area .header-bottom.sticky-bar .logo {
 	transition: background 1s ease-in;
@@ -2626,28 +2633,28 @@ hr {
 
 .header-area .header-bottom .logo {
 	float: left;
-	padding: 9px 72px;
+	padding: 10px 72px;
 	text-align: center;
 	background: #f4f4f4
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
 	.header-area .header-bottom .logo {
-		padding: 9px 27px;
+		padding: 10px 27px;
 		margin-right: 10px
 	}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.header-area .header-bottom .logo {
-		padding: 9px 27px;
+		padding: 10px 27px;
 		margin-right: 10px
 	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header-area .header-bottom .logo {
-		padding: 9px 27px;
+		padding: 10px 27px;
 		margin-right: 10px
 	}
 }
@@ -2670,11 +2677,14 @@ hr {
 	z-index: 1
 }
 
+.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul li a {
+	padding: 18px 30px;
+}
 .header-area .header-bottom .menu-wrapper .main-menu ul li a {
 	color: #091a23;
 	font-weight: 700;
 	font-family: "Josefin Sans", sans-serif;
-	padding: 39px 30px;
+	padding: 19px 30px;
 	display: block;
 	font-size: 16px;
 	-webkit-transition: all .3s ease-out 0s;
@@ -2687,12 +2697,18 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.header-area .header-bottom .menu-wrapper .main-menu ul li a {
+		padding: 19px 21px
+	}
+	.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul li a {
 		padding: 18px 21px
 	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header-area .header-bottom .menu-wrapper .main-menu ul li a {
+		padding: 19px 14px
+	}
+	.header-area .header-bottom.sticky-bar .menu-wrapper .main-menu ul li a {
 		padding: 18px 14px
 	}
 }
@@ -3700,8 +3716,8 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.team-area {
-		padding-bottom: 150px;
-		padding-top: 150px
+		padding-bottom: 90px;
+		padding-top: 50px
 	}
 }
 
