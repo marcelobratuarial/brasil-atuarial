@@ -46,7 +46,7 @@
 
     <?= $this->renderSection('header') ?>
     
-    <main>
+    <main style="clear: both;">
         <?= $this->renderSection('content') ?>
     
         

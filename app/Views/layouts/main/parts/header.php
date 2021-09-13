@@ -76,7 +76,7 @@
                 </div>
                 
             </div> */ ?>
-            <div class="header-bottom header-sticky" style="overflow: hidden;">
+            <div class="header-bottom header-sticky" style="">
                 <!-- Logo -->
                 <div class="logo d-none d-lg-block">
                     <a href="<?= base_url("/") ?>"><img src="<?= base_url("assets/img/logo/logo.png") ?>" alt=""></a>
