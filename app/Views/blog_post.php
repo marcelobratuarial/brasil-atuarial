@@ -7,6 +7,16 @@
 
 <?= $this->section('content') ?>
     <?php //print_r($posts); ?>
+    
+   <!-- Load Facebook SDK for JavaScript -->
+   <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+   fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
     <!--? Hero Start -->
     <div class="slider-area ">
          <div class="slider-height2 d-flex align-items-center">
@@ -83,10 +93,20 @@
                            <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
                         </div>
                         <ul class="social-icons">
-                           <li><a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
-                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                           <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                           <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                           <li><!-- Your share button code -->
+                           <div class="fb-share-button" 
+                           data-href="<?= base_url("blog/".slugify($post['post_title'])) ?>" 
+                           data-layout="button">
+                           </div></li>
+                           <!-- <li>
+                           <a class="twitter-share-button"
+                           href="https://twitter.com/intent/tweet">
+                           Tweet</a>
+                           </li> -->
+                           <!-- <li><div class="fb-share-button" data-layout="box_count" data-href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></div></li> -->
+                           <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                           <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
+                           <!-- <li><a href="#"><i class="fab fa-behance"></i></a></li> -->
                         </ul>
                      </div>
                      <!-- <div class="navigation-area">

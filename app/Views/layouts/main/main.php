@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="pt_BR">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,6 +14,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url("/assets/img/favicon_io/favicon-16x16.png") ?>">
     <link rel="manifest" href="<?= base_url("/assets/img/favicon_io/site.webmanifest") ?>">
 
+    <!-- <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /> -->
+    <meta property="og:locale" content="pt_BR" />
 	<!-- CSS here -->
 	<link rel="stylesheet" href="<?= base_url("assets/css/bootstrap.min.css") ?>">
 	<link rel="stylesheet" href="<?= base_url("assets/css/owl.carousel.min.css") ?>">
