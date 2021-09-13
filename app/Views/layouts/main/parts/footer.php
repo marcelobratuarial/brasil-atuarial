@@ -75,9 +75,9 @@
                                 <h4>CONHEÇA NOSSO GRUPO</h4>
                                 <ul>
                                     <li><a href="https://dygo.com.br/" target="_blank">Dygo</a></li>
+                                    <li><a href="https://brasilbeneficios.club/" target="_blank">Brasil Benefícios</a></li>
                                     <li><a href="https://brasilplataformas.com.br/site/" target="_blank">Brasil Plataformas</a></li>
                                     <li><a href="https://agenciabrasildigital.com.br/" target="_blank">Agência Brasil Digital</a></li>
-                                    <li><a href="https://brasilbeneficios.club/" target="_blank">Brasil Benefícios</a></li>
                                     
                                 </ul>
                             </div>
