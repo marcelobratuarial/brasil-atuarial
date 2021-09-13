@@ -9,10 +9,10 @@
                     <div class="row align-items-center flex-nowrap home-slider">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".2s">Dê um Up em sua entidade</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".4s">Conheça as soluções do Grupo Brasil Atuarial</h1>
+                                <span data-animation="fadeInLeft" data-delay=".2s">Nós somos uma empresa de desenvolvimento de consultoria atuarial</span>
+                                <h1 data-animation="fadeInLeft" data-delay=".4s">Um risco continua arriscado quando pode-se prevê-lo?</h1>
                                 <!-- Hero-btn -->
-                                <div class="hero__btn">
+                                <div class="hero__btn d-none d-lg-block">
                                     <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Conheçer soluções</a>
                                 </div>
                             </div>
