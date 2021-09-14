@@ -7355,6 +7355,9 @@ del {
 .box-services p {
 	text-align: justify;
 }
+.cat-cap h5 {
+	text-align: left;
+}
 .cat-cap {
 	text-align: justify;
 }
