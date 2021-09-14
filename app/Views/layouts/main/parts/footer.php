@@ -11,7 +11,7 @@
                                 <h4>Receba nossas novidades</h4>
                             </div>
                             <!-- Form -->
-                            <div class="footer-form mb-50">
+                            <div class="footer-form mb-40">
                                 <div id="mc_embed_signup">
                                     <form target="_blank" action="#" method="post" class="subscribe_form relative mail_part" novalidate="true">
                                         <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">

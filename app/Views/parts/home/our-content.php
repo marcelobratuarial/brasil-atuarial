@@ -15,7 +15,7 @@
         <div class="row">
             <?php foreach($lastPosts as $p ) : ?>
             <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="home-blog-single mb-30">
+                <div class="home-blog-single mb-20">
                     <div class="blog-img-cap">
                         <div class="blog-img">
                             <img src="<?= base_url($p['imagem']) ?>" alt="">

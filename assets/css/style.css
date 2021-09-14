@@ -2363,8 +2363,8 @@ hr {
 }
 
 .footer-padding {
-	padding-top: 150px;
-	padding-bottom: 50px
+	padding-top: 100px;
+	padding-bottom: 30px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4040,7 +4040,8 @@ hr {
 }
 
 .footer-area {
-	background: #1e4f8c
+	background: #fff;
+	border-top: solid 1px rgba(102, 102, 102, 0.8);
 }
 
 .footer-area .footer-heading {
@@ -4048,7 +4049,7 @@ hr {
 }
 
 .footer-area .footer-heading .footer-tittle2 h4 {
-	color: #fff;
+	color: #2d3092;
 	font-family: "Sen", sans-serif;
 	font-size: 26px;
 	margin-bottom: 38px;
@@ -4136,7 +4137,7 @@ hr {
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
-	color: #fff;
+	color: #2d3092;
 	font-size: 18px;
 	margin-bottom: 38px;
 	font-weight: 500
