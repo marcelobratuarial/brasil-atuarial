@@ -2949,7 +2949,7 @@ hr {
 	/* min-height: 840px; */
 	height: 80vh;
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: center;
 	background-size: cover;
 	
 }
@@ -2957,21 +2957,21 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.slider-height {
 		min-height: 600px;
-		background-position: left center;
+		background-position: center;
 	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	.slider-height {
 		min-height: 400px;
-		background-position: left center;
+		background-position: center;
 	}
 }
 
 @media (max-width: 575px) {
 	.slider-height {
 		min-height: 400px;
-		background-position: left center;
+		background-position: center;
 	}
 }
 
