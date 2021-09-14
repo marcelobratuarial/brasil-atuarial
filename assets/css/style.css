@@ -3886,7 +3886,7 @@ hr {
 .testimonial-area .testimonial-caption p {
 	font-size: 23px;
 	color: #030431;
-	color: #ffff;
+	/* color: #ffff; */
 	line-height: 45px;
 	line-height: 1.5;
 	padding: 0 80px;
@@ -3919,14 +3919,14 @@ hr {
 }
 
 .testimonial-area .rattiong-caption span {
-	color: #fff;
+	color: #1d508c;
 	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase
 }
 
 .testimonial-area .rattiong-caption span span {
-	color: #fff;
+	color: #1d508c;
 	font-size: 16px;
 	text-transform: capitalize
 }

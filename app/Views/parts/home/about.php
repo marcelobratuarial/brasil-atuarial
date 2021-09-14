@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-caption mb-40">
                     <!-- Section Tittle -->
-                    <div class="section-tittle mb-35">
+                    <div class="section-tittle mb-35 text-center">
                         <!-- <span>Sobre o grupo</span> -->
                         <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
                     </div>
@@ -18,7 +18,7 @@
                             <li><span class="flaticon-business"></span> Agência Brasil Digital</li>
                         
                     </ul>
-                    <a href="sobre.html" class="btn">Conheça o Grupo</a>
+                    <a href="sobre.html" class="btn">Quero conhecer</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
