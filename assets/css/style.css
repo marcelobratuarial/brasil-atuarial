@@ -2945,8 +2945,9 @@ hr {
 }
 
 .slider-height {
-	background-image: url(../img/hero/h1_hero.png);
-	min-height: 840px;
+	background-image: url(../img/hero/investiment-banner.jpg);
+	/* min-height: 840px; */
+	height: 80vh;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover

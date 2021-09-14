@@ -4,7 +4,7 @@
     <div class="slider-active">
         <!-- Single Slider -->
         <div class="single-slider slider-height d-flex ">
-            <div class="nnn  d-flex align-items-start flex-nowrap" >
+            <div class="nnn  d-flex align-items-center flex-nowrap" >
                 <div class="container">
                     <div class="row align-items-center flex-nowrap home-slider">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -18,9 +18,9 @@
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-5">
-                            <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
-                                <img src="<?= base_url("assets/img/hero/heroman.png") ?>" alt="">
-                            </div>
+                            <!-- <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
+                                <img src="<?= base_url("assets/img/hero/investiment-banner.jpg") ?>" alt="">
+                            </div> -->
                         </div>
                     </div>
                 </div>
