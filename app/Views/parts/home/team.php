@@ -20,9 +20,9 @@
                         <img src="<?= base_url("assets/img/temp/tamires.jpg") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                     <div class="team-caption">
@@ -47,9 +47,9 @@
                         <img src="<?= base_url("assets/img/temp/enrico.jpg") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                            <li><a href="https://www.linkedin.com/in/enriconeto" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                     <div class="team-caption">
