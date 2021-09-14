@@ -31,8 +31,8 @@
                         <span class="flaticon-education"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
-                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <h5><a  href="#">ANÁLISE ATUARIAL</a></h5>
+                        <p>Consiste na análise técnica-atuarial da carteira, através da análise de exposição e apuração de diversos indicadores essenciais para auxiliar na tomada de decisões estratégicas para obter melhora contínua de resultado operacional e performance.</p>
                         <!-- <a href="#" class="read-more1">Leia Mais ></a> -->
                     </div>
                     <div class="expandable text-center"><i class="fas fa-chevron-down"></i></div>
@@ -44,8 +44,8 @@
                         <span class="flaticon-communications"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
-                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <h5><a  href="#">ANÁLISE FINANCEIRA</a></h5>
+                        <p>Realização de análises financeiras da carteira afim de verificar e acompanhar a evolução dos custos com base no plano de contas padrão, seguindo as boas práticas de gestão. A análise financeira, além de apurar o resultado da operação, possibilita melhor entendimento a cerca da participação de cada centro de custos e, consequentemente, auxilia na formação do valor da contribuição mensal do plano. A análise financeira é de suma importância para análise de liquidez e solvência da <strong>Entidade</strong>.</p>
                         <!-- <a href="#" class="read-more1">Leia Mais ></a> -->
                     </div>
                     <div class="expandable text-center"><i class="fas fa-chevron-down"></i></div>
@@ -57,8 +57,8 @@
                         <span class="flaticon-computing"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Cálculo da Tabela de Mensalidade</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
+                        <h5><a  href="#">CÁLCULO DA CONTRIBUIÇÃO MENSAL</a></h5>
+                        <p>Apuração do valor mensal do plano para adequação dos valores praticados da carteira existente ou para distribuição de novos planos com diferentes características.</p>
                         <!-- <a  href="#" class="read-more1">Leia Mais ></a> -->
                     </div>
                     <div class="expandable text-center"><i class="fas fa-chevron-down"></i></div>
@@ -70,8 +70,8 @@
                         <span class="flaticon-business"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">RATEIO: APURAÇÃO E IMPLEMENTAÇÃO</a></h5>
-                        <p>Apuração refinada afim de identificar a metodologia de rateio aderente às características da base através de testes de adequação, pesquisa de mercado e simulações do modelo. Após definida a metodologia, a Brasil Atuarial oferece todo o suporte técnico e operacional na implementação do rateio e acompanhamento mensal.</p>
+                        <h5><a  href="#">NOTA TÉCNICA ATUARIAL</a></h5>
+                        <p>Elaboração de nota técnica atuarial para demonstração da viabilidade econômico-financeira dos planos e serviços. Este documento tem por objetivo descrever as características gerais do plano de benefícios, a formulação de cálculo do rateio e da reserva técnica, bem como as bases técnicas e premissas utilizadas.</p>
                         <!-- <a href="#" class="read-more1">Leia Mais ></a> -->
                     </div>
                     <div class="expandable text-center"><i class="fas fa-chevron-down"></i></div>
@@ -83,8 +83,8 @@
                         <span class="flaticon-business"></span>
                     </div>
                     <div class="cat-cap">
-                        <h5><a  href="#">Entendendo o Mercado de Automóveis</a></h5>
-                        <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
+                        <h5><a  href="#">PLANO DE NEGÓCIOS</a></h5>
+                        <p>Elaboração de um plano de negócios estruturado para determinar os objetivos do negócio, testar ideias e a viabilidade operacional, mercadológica e financeira do projeto.</p>
                         <!-- <a  href="#" class="read-more1">Leia Mais ></a> -->
                     </div>
                     <div class="expandable text-center"><i class="fas fa-chevron-down"></i></div>
