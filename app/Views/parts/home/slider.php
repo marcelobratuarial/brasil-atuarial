@@ -12,9 +12,9 @@
                                 <!-- <span data-animation="fadeInLeft" class="d-none  d-lg-block" data-delay=".2s">Nós somos uma empresa de desenvolvimento de consultoria atuarial</span> -->
                                 <h1 data-animation="fadeInLeft" data-delay=".4s">Um risco continua arriscado quando pode-se prevê-lo?</h1>
                                 <!-- Hero-btn -->
-                                <div class="hero__btn d-none d-lg-block">
+                                <!-- <div class="hero__btn d-none d-lg-block">
                                     <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Conheçer soluções</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-5">
