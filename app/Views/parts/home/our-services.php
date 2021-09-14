@@ -13,7 +13,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-web-design"></span>
                     </div>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-education"></span>
                     </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-communications"></span>
                     </div>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-computing"></span>
                     </div>
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-business"></span>
                     </div>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-cat mb-50">
+                <div class="single-cat mb-10">
                     <div class="cat-icon">
                         <span class="flaticon-business"></span>
                     </div>
