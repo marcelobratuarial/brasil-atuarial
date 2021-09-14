@@ -4,7 +4,8 @@
     <div class="slider-active">
         <!-- Single Slider -->
         <div class="single-slider slider-height d-flex ">
-            <div class="nnn  d-flex align-items-start flex-nowrap" >
+            <!-- <div class="nnn  d-flex align-items-start flex-nowrap" > -->
+            <div class="nnn  d-flex flex-nowrap" >
                 <div class="container">
                     <div class="row align-items-center flex-nowrap home-slider">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
