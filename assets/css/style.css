@@ -2422,7 +2422,7 @@ hr {
 	color: #030431;
 	font-weight: 600;
 	margin-bottom: 17px;
-	line-height: 1.3
+	line-height: 1
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3218,25 +3218,88 @@ hr {
 	transition: transform 650ms;
 }
 
-.categories-area .single-cat:hover {
-	transform: scale(1.1);
-	
-	z-index: 9;
-	position: absolute;
-}
+
 .categories-area .single-cat .cat-cap {
 	max-height: 240px;
 	transition: max-height 0s ease-out;
 	transition-delay: 0ms;
 	overflow: hidden;
 }
-.categories-area .single-cat:hover .cat-cap {
-	max-height: 700px;
-    transition: max-height 0.65s ease-in;
+
+@media (max-width: 768px) {
+	.categories-area .single-cat:active {
+		transform: scale(1.1);
+		
+		z-index: 9;
+		position: absolute;
+	}
+	.categories-area .single-cat:active .cat-cap {
+		max-height: 700px;
+		transition: max-height 0.65s ease-in;
+		
+	}
+	.categories-area .single-cat:active .expandable {
+		display: none;
+	}
 	
+	.categories-area .single-cat:active {
+		background: #1e4f8c;
+		border: 1px solid transparent
+	}
+
+	.categories-area .single-cat:active .cat-icon span {
+		color: #fff
+	}
+
+	.categories-area .single-cat:active .cat-cap h5>a {
+		color: #fff
+	}
+
+	.categories-area .single-cat:active .cat-cap p {
+		color: #fff
+	}
+
+	.categories-area .single-cat:active .cat-cap a.read-more1 {
+		color: #fff
+	}
 }
-.categories-area .single-cat:hover .expandable {
-	display: none;
+
+@media (min-width: 769px) {
+	.categories-area .single-cat:hover {
+		transform: scale(1.1);
+		
+		z-index: 9;
+		position: absolute;
+	}
+	.categories-area .single-cat:hover .cat-cap {
+		max-height: 700px;
+		transition: max-height 0.65s ease-in;
+		
+	}
+	.categories-area .single-cat:hover .expandable {
+		display: none;
+	}
+	
+	.categories-area .single-cat:hover {
+		background: #1e4f8c;
+		border: 1px solid transparent
+	}
+
+	.categories-area .single-cat:hover .cat-icon span {
+		color: #fff
+	}
+
+	.categories-area .single-cat:hover .cat-cap h5>a {
+		color: #fff
+	}
+
+	.categories-area .single-cat:hover .cat-cap p {
+		color: #fff
+	}
+
+	.categories-area .single-cat:hover .cat-cap a.read-more1 {
+		color: #fff
+	}
 }
 
 .expandable {
@@ -3331,26 +3394,6 @@ hr {
 	transition: all .2s ease-out 0s
 }
 
-.categories-area .single-cat:hover {
-	background: #1e4f8c;
-	border: 1px solid transparent
-}
-
-.categories-area .single-cat:hover .cat-icon span {
-	color: #fff
-}
-
-.categories-area .single-cat:hover .cat-cap h5>a {
-	color: #fff
-}
-
-.categories-area .single-cat:hover .cat-cap p {
-	color: #fff
-}
-
-.categories-area .single-cat:hover .cat-cap a.read-more1 {
-	color: #fff
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.count-down-area {
@@ -3435,7 +3478,7 @@ hr {
 	font-size: 16px;
 	color: #64676c;
 	line-height: 1.6;
-	margin-bottom: 35px;
+	/* margin-bottom: 35px; */
 	padding-right: 50px
 }
 
