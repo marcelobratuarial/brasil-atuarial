@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="<?= base_url("assets/css/themify-icons.css") ?>">
 	<link rel="stylesheet" href="<?= base_url("assets/css/slick.css") ?>">
 	<link rel="stylesheet" href="<?= base_url("assets/css/nice-select.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/style.css") ?>">
+	<link rel="stylesheet" href="<?= base_url("assets/css/style.css?".time()) ?>">
     <style>
         .team-img img {
             object-fit: cover;
