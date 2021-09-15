@@ -3211,7 +3211,7 @@ hr {
 	z-index: 1;
 	background: #ffff;
 	position: relative;
-	
+	cursor: pointer;
 }
 
 .categories-area .single-cat {
@@ -3251,7 +3251,7 @@ hr {
 		color: #fff
 	}
 
-	.categories-area .single-cat:active .cat-cap h5>a {
+	.categories-area .single-cat:active .cat-cap h5 {
 		color: #fff
 	}
 
@@ -3289,7 +3289,7 @@ hr {
 		color: #fff
 	}
 
-	.categories-area .single-cat:hover .cat-cap h5>a {
+	.categories-area .single-cat:hover .cat-cap h5 {
 		color: #fff
 	}
 

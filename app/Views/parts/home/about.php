@@ -9,7 +9,7 @@
                         <!-- <span>Sobre o grupo</span> -->
                         <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
                     </div>
-                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira para Entidades mutualistas realizando trabalhos com base na experiência estatística da própria Entidade ou com experiência do mercado. Nosso propósito é através de consultorias pontuais com entrega e apresentação de estudo de caso bem como consultorias educativas com acompanhamento, treinamento e preparação de equipe, difundir conhecimento e aprimorar conhecimento técnico no mercado.</p>
+                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira para Entidades mutualistas realizando trabalhos com base na experiência estatística da própria Entidade ou com experiência do mercado. Nosso propósito é através de consultorias pontuais com entrega e apresentação de estudo de caso bem como consultorias educativas com acompanhamento, treinamento e preparação de equipe, difundir conhecimento e aprimorar aculturamento técnico no mercado.</p>
  
                     <p style="text-align: justify">Para Insurtechs, trazemos soluções de regulamenta-las assessorando no atendimento das exigências do Sandbox Regulatório da SUSEP. Plano de Negócios, Condições Gerais e Nota Técnica Atuarial são documentos bases que desenvolvemos nesse processo consultivo.</p>
                     

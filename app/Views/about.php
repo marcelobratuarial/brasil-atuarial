@@ -46,6 +46,11 @@ profissionais.
                         </p>
                     </div>
                     <div class="about-details-cap mb-50">
+                        <h4>Visão</h4>
+                        <p>
+                        Ser a opção preferencial dos clientes quando o assunto for soluções em atuária e estatística, bem como ser uma empresa reconhecida pela qualidade dos serviços desenvolvidos.</p>
+                    </div>
+                    <div class="about-details-cap mb-50">
                         <h4>Valores</h4>
                         <p>
                         Ética, sigilo, compromisso, responsabilidade e experiência.
