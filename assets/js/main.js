@@ -209,5 +209,20 @@
     window.location.href = base_url + '/blog/q/'+term
     // console.log('teste', term);
   });
+  
+  $(window).on('resize', function() {
+    console.log("redime")
+    const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+    if (isMobile) {
+      $(".single-cat").on("click", function () {
+        if($(this).hasClass("reading")) {
+          $(this).removeClass('reading')
+        } else {
+          $(this).addClass('reading')
+        }
+        // if(alert("mobile"))
+      })
+    }
+  });
 
 })(jQuery);
