@@ -3468,6 +3468,12 @@ hr {
 	color: #f05510
 }
 
+.about-area .about-caption .conhecer-btn-box {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 575px) {
 	.about-area .about-caption {
 		margin-bottom: 35px
@@ -3501,7 +3507,10 @@ hr {
 }
 
 .about-area .about-caption ul {
-	margin-bottom: 75px
+	margin-bottom: 75px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 @media (max-width: 575px) {

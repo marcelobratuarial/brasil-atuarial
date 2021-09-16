@@ -14,15 +14,15 @@
                     <p style="text-align: justify">Para Insurtechs, trazemos soluções de regulamenta-las assessorando no atendimento das exigências do Sandbox Regulatório da SUSEP. Plano de Negócios, Condições Gerais e Nota Técnica Atuarial são documentos bases que desenvolvemos nesse processo consultivo.</p>
                     
                     <p style="text-align: justify">Para Seguradoras, realizamos avaliação Atuarial, elaboramos novos produtos bem como propomos modelos de otimização de pricing. Todo trabalho é desenvolvido dentro das melhores práticas atuariais de mercado.</p>
-                    <ul>
+                    <!-- <ul>
                         
-                        <li><span class="flaticon-tools-and-utensils"></span> Brasil Benefícios</li>
-                        <li><span class="flaticon-graduated"></span> Dygo - Plataforma EAD</li>
-                        <li><span class="flaticon-communications-1"></span> Brasil Plataformas</li>
-                            <li><span class="flaticon-business"></span> Agência Brasil Digital</li>
+                        <li><span class="flaticon-tools-and-utensils"></span> Gestão de Risco</li>
+                        <li><span class="flaticon-graduated"></span> Gestão Financeira</li>
+                        <li><span class="flaticon-communications-1"></span> Gestão Estratégica</li>
+                            <li><span class="flaticon-business"></span> Avaliação Atuarial</li>
                         
                     </ul>
-                    <a href="sobre.html" class="btn">Quero conhecer</a>
+                    <a href="<?= base_url('sobre'); ?>" class="btn">Quero conhecer</a> -->
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -34,6 +34,19 @@
                     <div class="about-back-img ">
                         <img src="<?= base_url("assets/img/gallery/about1.png") ?>" alt="">
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-area">
+            <div class="about-caption">
+                <ul>                        
+                    <li><span class="flaticon-tools-and-utensils"></span> Gestão de Risco</li>
+                    <li><span class="flaticon-graduated"></span> Gestão Financeira</li>
+                    <li><span class="flaticon-communications-1"></span> Gestão Estratégica</li>
+                    <li><span class="flaticon-business"></span> Avaliação Atuarial</li>
+                </ul>
+                <div class="conhecer-btn-box">
+                    <a href="<?= base_url('sobre'); ?>" class="btn">Quero conhecer</a>
                 </div>
             </div>
         </div>
