@@ -39,7 +39,7 @@
         </div>
         <div class="about-area">
             <div class="about-caption">
-                <ul>                        
+                <ul class="row">                        
                     <li><span class="flaticon-tools-and-utensils"></span> Gestão de Risco</li>
                     <li><span class="flaticon-graduated"></span> Gestão Financeira</li>
                     <li><span class="flaticon-communications-1"></span> Gestão Estratégica</li>
