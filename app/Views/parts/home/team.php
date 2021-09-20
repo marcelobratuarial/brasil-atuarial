@@ -17,7 +17,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">
                     <div class="team-img">
-                        <img src="<?= base_url("assets/img/temp/tamires.jpg") ?>" alt="">
+                        <img style="object-fit: cover; height: 300px" src="<?= base_url("assets/img/temp/tamires.jpg") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
                             <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -26,9 +26,9 @@
                         </ul>
                     </div>
                     <div class="team-caption">
-                        <h3><a href="instructor.html">Tamires Lamon</a></h3>
+                        <h3>Tamires Lamon</h3>
                         <p>Sócia</p>
-                        <div class="team-content" style="text-align: left; padding: 10px 22px;">
+                        <div class="team-content" style="text-align: justify; padding: 10px 22px;">
                             <p>
                                 Graduada em Ciências Atuariais pela Pontifícia Universidade Católica de Minas Gerais – PUCMG, Pós Graduada em Estatística pela Universidade Federal de Minas Geras – UFMG e MBA em Controladoria e Finanças pela Cruzeiro do Sul.
                             </p>
@@ -44,7 +44,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">
                     <div class="team-img">
-                        <img src="<?= base_url("assets/img/temp/enrico.jpg") ?>" alt="">
+                        <img style="object-fit: cover; height: 300px" src="<?= base_url("assets/img/temp/enrico.jpg") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
                             <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -53,14 +53,14 @@
                         </ul>
                     </div>
                     <div class="team-caption">
-                        <h3><a href="instructor.html">Enrico Neto</a></h3>
+                        <h3>Enrico Neto</h3>
                         <p>Sócio Fundador</p>
-                        <div class="team-content" style="text-align: left; padding: 10px 22px;">
+                        <div class="team-content" style="text-align: justify; padding: 10px 22px;">
                             <p>
                                 Graduado em Ciências Atuariais com Especialização em Estatística pela UFMG, é Membro do Instituto Brasileiro de Atuária – MIBA 1771.
                             </p>
                             <p>    
-                                Como Cofundador da Brasil Atuarial Plataformas, realiza trabalhos consultivos na distribuição massificada de assistências, seguros e benefícios. Aliando o entendimento técnico dos produtos e sua adequada precificação com a entrega Mobile para o cliente final, proporcionamos uma jornada simplificada na contratação desses serviços.
+                                Como Cofundador da Brasil Atuarial, realiza trabalhos consultivos na distribuição massificada de assistências, seguros e benefícios. Aliando o entendimento técnico dos produtos e sua adequada precificação com a entrega Mobile para o cliente final, proporcionamos uma jornada simplificada na contratação desses serviços.
                             </p>
                             <p>
                                 Com mais de 20 anos de experiência no mercado de Seguros e Mutualista, realiza trabalhos Atuariais de estruturação Tecnológica da área de Benefícios de Empresas, Sindicatos, Associações, Federações e Cooperativas uma relação Business to Business 100% digital e totalmente transparente.
