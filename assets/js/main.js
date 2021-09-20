@@ -209,20 +209,20 @@
     window.location.href = base_url + '/blog/q/'+term
     // console.log('teste', term);
   });
-  
+  var isMobile;
   $(window).on('resize', function() {
-    console.log("redime")
-    const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
-    if (isMobile) {
-      $(".single-cat").on("click", function () {
-        if($(this).hasClass("reading")) {
-          $(this).removeClass('reading')
-        } else {
-          $(this).addClass('reading')
-        }
-        // if(alert("mobile"))
-      })
-    }
+    // console.log("redime")
+    isMobile = window.matchMedia("(max-width: 768px)").matches;
+    
   });
-
+  $(".single-cat").on("click", function () {
+    // console.warn(isMobile)
+    $(".single-cat").not(this).removeClass('reading')
+    if($(this).hasClass("reading")) {
+      $(this).removeClass('reading')
+    } else {
+      $(this).addClass('reading')
+    }
+    // if(alert("mobile"))
+  })
 })(jQuery);
