@@ -3220,7 +3220,7 @@ hr {
 
 
 .categories-area .single-cat .cat-cap {
-	max-height: 240px;
+	max-height: 210px;
 	transition: max-height 0s ease-out;
 	transition-delay: 0ms;
 	overflow: hidden;
@@ -3303,13 +3303,15 @@ hr {
 }
 
 .expandable {
+	padding: 10px 0;
+    height: 20px;
 	transform: translateY(-40%);
 	background: rgb(255,255,255);
 	background: linear-gradient(0deg, rgba(255,255,255,1) 27%, rgba(255,255,255,0.5354516806722689) 77%, rgba(255,255,255,0) 98%);
 }
 .expandable i {
-	font-size: 2rem;
-	opacity: 0.3;
+	font-size: 1.3rem;
+	opacity: 0.2;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.categories-area .single-cat {
@@ -3374,7 +3376,8 @@ hr {
 	-moz-transition: all .2s ease-out 0s;
 	-ms-transition: all .2s ease-out 0s;
 	-o-transition: all .2s ease-out 0s;
-	transition: all .2s ease-out 0s
+	transition: all .2s ease-out 0s;
+	text-overflow: ellipsis;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
