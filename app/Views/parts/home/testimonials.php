@@ -36,13 +36,12 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/testimonial.png") ?>" class="ani-btn " alt="">
+                            <img src="<?= base_url("assets/img/gallery/rodrigo.jpg") ?>" class="ani-btn " alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
-                            <p>You can’t succeed if you just do what others do and 
-                                follow the well-worn path. You need to create a new and 
-                                original path for yourself. </p>
+                            <p>Ter a Brasil Atuarial como parceira é certeza de tranquilidade. Profissionais competentes e dinâmicos, que conseguem através do vasto conhecimento nos trazer clareza e direcionamento nas operações. Agradecemos a toda equipe representada pelo Enrico, toda dedicação, presteza e descrição em nossa caminhada. Sucesso. Que continuem brilhando em todo território nacional!
+Forte abraço.</p>
                             <!-- Rattion -->
                             <div class="testimonial-ratting">
                                 <i class="fas fa-star"></i>
@@ -52,7 +51,30 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="rattiong-caption">
-                                <span>Clifford Frazier<span> - Colorlib Themes</span> </span>
+                                <span>Rodrigo Felipe<span> - CEO AGV Brasil</span> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Testimonial -->
+                    <div class="single-testimonial pt-65">
+                        <!-- Testimonial tittle -->
+                        <div class="testimonial-icon mb-45">
+                            <img src="<?= base_url("assets/img/gallery/alexandre-scarpelli.jpg") ?>" class="ani-btn " alt="">
+                        </div>
+                            <!-- Testimonial Content -->
+                        <div class="testimonial-caption text-center">
+                            <p>A APVS Brasil desde de 2014 parceira da Brasil Atuarial, onde criamos um relacionamento profissional de sucesso, ao qual resultaram em grandes projetos e resultado extraordinário. 
+                            Esperamos sinceramente podermos continuar lado a lado e por muito tempo, desenvolvendo novos projetos e estratégias cada vez mais ousadas.</p>
+                            <!-- Rattion -->
+                            <div class="testimonial-ratting">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="rattiong-caption">
+                                <span>Alexandre Scarpelli<span> - CEO APVS</span> </span>
                             </div>
                         </div>
                     </div>
