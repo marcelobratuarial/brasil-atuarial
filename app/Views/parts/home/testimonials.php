@@ -18,7 +18,7 @@
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
-                            <p>A Brasil Autuorial é uma empresa parceira a mais de 5 anos, prezamos muito por relações de longo prazo e encontramos nesta parceria uma relação de extrema confiança, onde indicamos nossos clientes que sempre nos retornam com feedbacks positivos em relação a qualidade dos serviços e do atendimento.</p>
+                            <p>A Brasil Atuarial é uma empresa parceira a mais de 5 anos, prezamos muito por relações de longo prazo e encontramos nesta parceria uma relação de extrema confiança, onde indicamos nossos clientes que sempre nos retornam com feedbacks positivos em relação a qualidade dos serviços e do atendimento.</p>
                             <!-- Rattion -->
                             <div class="testimonial-ratting">
                                 <i class="fas fa-star"></i>
