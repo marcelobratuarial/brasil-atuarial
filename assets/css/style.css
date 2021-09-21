@@ -4075,7 +4075,10 @@ hr {
 
 .h1-testimonial-active .testimonial-icon img {
 	border: 3px dashed transparent;
-	border-radius: 50%
+	border-radius: 50%;
+	object-fit: cover;
+	height: 250px;
+	width: 250px;
 }
 
 .h1-testimonial-active:hover .testimonial-icon .ani-btn {
