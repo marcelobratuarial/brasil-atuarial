@@ -40,8 +40,7 @@
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
-                            <p>Ter a Brasil Atuarial como parceira é certeza de tranquilidade. Profissionais competentes e dinâmicos, que conseguem através do vasto conhecimento nos trazer clareza e direcionamento nas operações. Agradecemos a toda equipe representada pelo Enrico, toda dedicação, presteza e descrição em nossa caminhada. Sucesso. Que continuem brilhando em todo território nacional!
-Forte abraço.</p>
+                            <p>Ter a Brasil Atuarial como parceira é certeza de tranquilidade. Profissionais competentes e dinâmicos, que conseguem através do vasto conhecimento nos trazer clareza e direcionamento nas operações. Agradecemos a toda equipe representada pelo Enrico, toda dedicação, presteza e descrição em nossa caminhada. Sucesso. Que continuem brilhando em todo território nacional!</p>
                             <!-- Rattion -->
                             <div class="testimonial-ratting">
                                 <i class="fas fa-star"></i>
