@@ -74,7 +74,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="rattiong-caption">
-                                <span>Alexandre Scarpelli<span> - CEO APVS</span> </span>
+                                <span>Alexandre Scarpelli<span> - CEO APVS Brasil</span> </span>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
-                            <p>Nós da Lions parabenizamos a todo time da Brasil Atuarial pelo belíssimo trabalho, e meu agradecimento em especial ao Enrico pela presteza e atenção sempre que precisamos, já se passaram alguns anos e a parceria se fortalece anos após anos, resultado de um trabalho dedicado e com propósitos. Conte sempre conosco e que venham novos desafios. Forte abraço Enrico e todo seu time da Brasil Atuarial.</p>
+                            <p>Nós da Lions parabenizamos a todo time da Brasil Atuarial pelo belíssimo trabalho, e meu agradecimento em especial ao Enrico pela presteza e atenção sempre que precisamos. Já se passaram alguns anos e a parceria se fortalece ano após ano, resultado de um trabalho dedicado e com propósitos. Conte sempre conosco e que venham novos desafios. Forte abraço Enrico e todo seu time da Brasil Atuarial.</p>
                             <!-- Rattion -->
                             <div class="testimonial-ratting">
                                 <i class="fas fa-star"></i>
@@ -97,7 +97,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="rattiong-caption">
-                                <span>----<span> - Lions</span> </span>
+                                <span>Roney<span> - CEO LIONS</span> </span>
                             </div>
                         </div>
                     </div>

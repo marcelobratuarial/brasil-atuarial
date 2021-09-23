@@ -2102,15 +2102,15 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	.section-padding2 {
-		padding-top: 70px;
-		padding-bottom: 70px
+		padding-top: 40px;
+		padding-bottom: 40px
 	}
 }
 
 @media (max-width: 575px) {
 	.section-padding2 {
-		padding-top: 70px;
-		padding-bottom: 70px
+		padding-top: 40px;
+		padding-bottom: 40px
 	}
 }
 
@@ -2244,22 +2244,22 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section-padding30 {
-		padding-top: 100px;
-		padding-bottom: 70px
+		padding-top: 50px;
+		padding-bottom: 40px
 	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	.section-padding30 {
-		padding-top: 65px;
-		padding-bottom: 70px
+		padding-top: 45px;
+		padding-bottom: 40px
 	}
 }
 
 @media (max-width: 575px) {
 	.section-padding30 {
-		padding-top: 65px;
-		padding-bottom: 70px
+		padding-top: 35px;
+		padding-bottom: 40px
 	}
 }
 
@@ -2411,6 +2411,7 @@ hr {
 	font-size: 16px;
 	font-weight: 500;
 	margin-bottom: 22px;
+	text-transform: uppercase;
 	color: #3ba0ff;
 	display: inline-block;
 	font-family: "Josefin Sans", sans-serif
@@ -2945,7 +2946,7 @@ hr {
 }
 
 .slider-height {
-	background-image: url(../img/hero/investiment-banner.jpg);
+	background-image: url(../img/hero/h.webp);
 	/* min-height: 840px; */
 	height: 80vh;
 	background-repeat: no-repeat;
@@ -3506,6 +3507,11 @@ hr {
 @media (max-width: 575px) {
 	.about-area .about-caption p {
 		padding-right: 0px
+	}
+	.about-area .about-caption ul {
+	    flex-direction: column !important;
+		/* justify-content: center; */
+		align-items: center !important;
 	}
 }
 
