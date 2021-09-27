@@ -9,11 +9,11 @@
                         <!-- <span>Sobre o grupo</span> -->
                         <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
                     </div>
-                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira <span class="orangecustom">para as 
-                    entidades mutualista, realizando trabalhos com base na própria experiência estatística 
-                    da entidade ou na experiência do mercado.</span> Nosso propósito é, através de consultorias 
+                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira para as 
+                    entidades mutualistas, realizando trabalhos com base na própria experiência estatística 
+                    da entidade ou na experiência do mercado. Nosso propósito é, através de consultorias 
                     pontuais e customizadas, difundir conhecimento e aprimorar aculturamento técnico no 
-                    mercado. <span class="orangecustom">Tudo isso</span> com entrega e apresentação de estudo de caso, com consultorias 
+                    mercado. Tudo isso com entrega e apresentação de estudo de caso, com consultorias 
                     educativas, com acompanhamento, treinamento e preparação de equipe.</p>
  
                     <p style="text-align: justify">Para Insurtechs, trazemos soluções de regulamenta-las assessorando no atendimento 
