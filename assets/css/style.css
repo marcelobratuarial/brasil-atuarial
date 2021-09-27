@@ -11,7 +11,10 @@
 }
 
 
-
+.orangecustom {
+	color: orangered;
+	font-weight: 500;
+}
 
 .white-bg {
 	background: #ffffff

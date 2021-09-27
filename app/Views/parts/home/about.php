@@ -9,11 +9,22 @@
                         <!-- <span>Sobre o grupo</span> -->
                         <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
                     </div>
-                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira para Entidades mutualistas realizando trabalhos com base na experiência estatística da própria Entidade ou com experiência do mercado. Nosso propósito é através de consultorias pontuais com entrega e apresentação de estudo de caso bem como consultorias educativas com acompanhamento, treinamento e preparação de equipe, difundir conhecimento e aprimorar aculturamento técnico no mercado.</p>
+                    <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira <span class="orangecustom">para as 
+                    entidades mutualista, realizando trabalhos com base na própria experiência estatística 
+                    da entidade ou na experiência do mercado.</span> Nosso propósito é, através de consultorias 
+                    pontuais e customizadas, difundir conhecimento e aprimorar aculturamento técnico no 
+                    mercado. <span class="orangecustom">Tudo isso</span> com entrega e apresentação de estudo de caso, com consultorias 
+                    educativas, com acompanhamento, treinamento e preparação de equipe.</p>
  
-                    <p style="text-align: justify">Para Insurtechs, trazemos soluções de regulamenta-las assessorando no atendimento das exigências do Sandbox Regulatório da SUSEP. Plano de Negócios, Condições Gerais e Nota Técnica Atuarial são documentos bases que desenvolvemos nesse processo consultivo.</p>
+                    <p style="text-align: justify">Para Insurtechs, trazemos soluções de regulamenta-las assessorando no atendimento 
+                    das exigências do Sandbox Regulatório da SUSEP. Plano de Negócios, Condições Gerais 
+                    e Nota Técnica Atuarial são documentos bases que desenvolvemos nesse processo 
+                    consultivo.</p>
                     
-                    <p style="text-align: justify">Para Seguradoras, realizamos avaliação Atuarial, elaboramos novos produtos bem como propomos modelos de otimização de pricing. Todo trabalho é desenvolvido dentro das melhores práticas atuariais de mercado.</p>
+                    <p style="text-align: justify">Para Seguradoras, realizamos avaliação Atuarial, elaboramos novos produtos bem como 
+                    propomos modelos de otimização de pricing.</p>
+
+                    <p style="text-align: justify">Todo trabalho é desenvolvido dentro das melhores práticas atuariais de mercado.</p>
                     <!-- <ul>
                         
                         <li><span class="flaticon-tools-and-utensils"></span> Gestão de Risco</li>
