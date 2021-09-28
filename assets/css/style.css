@@ -3000,7 +3000,7 @@ hr {
 }
 @media (max-width: 991px) {
 	.nnn {
-		align-items: flex-start;
+		/* align-items: flex-start; */
 		/* background-size: cover; */
 		/* background-position: center right -100px; */
 		flex-grow: 1 !important;
@@ -7452,3 +7452,28 @@ del {
 .cat-cap {
 	text-align: justify;
 }
+
+
+.bgblue {
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #1e4f8c;
+	opacity: 0.8;
+}
+.tttt {
+	position: relative;
+	text-shadow: 4px 1px 5px rgb(0 0 0 / 97%);
+}
+/* .slider-area .hero__caption h1::after {
+	position: absolute;
+	top: 6px;
+    right: 54px;
+    width: 100%;
+    height: 3rem;
+    z-index: -1;
+	content: ' ';
+	background-color: orangered;
+} */
