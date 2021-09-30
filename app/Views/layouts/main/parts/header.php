@@ -129,7 +129,7 @@
                                         }
                                     }
                                     ?>                                                                            
-                                    
+                                    <li id="quero-conhecer-menu"><a target="_blank" href="<?= base_url("/lp") ?>">Quero conhecer</a></li>
                                 </ul>
                                 <!-- <ul id="navigation">                                                                                          
                                     <li><a href="index.html">Home</a></li>

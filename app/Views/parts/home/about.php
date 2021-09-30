@@ -57,7 +57,7 @@
                     <li><span class="flaticon-business"></span> Avaliação Atuarial</li>
                 </ul>
                 <div class="conhecer-btn-box">
-                    <a href="<?= base_url('sobre'); ?>" class="btn">Quero conhecer</a>
+                    <a target="_blank"  href="<?= base_url('lp'); ?>" class="btn">Quero conhecer</a>
                 </div>
             </div>
         </div>

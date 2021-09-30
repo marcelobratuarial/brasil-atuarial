@@ -47,6 +47,11 @@
             </div>
         </div>
     </section>
+    <section class="d-flex flex-column justify-content-center align-items-center mb-100">
+        <div class="conhecer-btn-box">
+            <a target="_blank" href="<?= base_url('lp'); ?>" class="btn">Quero conhecer</a>
+        </div>
+    </section>
     <!-- ================ contact section end ================= -->
     
 

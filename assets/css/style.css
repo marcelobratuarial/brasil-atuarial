@@ -2901,7 +2901,32 @@ hr {
 	left: 0;
 	z-index: 9
 }
-
+.header-sticky.sticky-bar #quero-conhecer-menu a {
+	color: rgb(179, 214, 255);
+	padding-left: 24px;
+}
+.header-sticky.sticky-bar #quero-conhecer-menu a {
+	padding: 5px 20px;
+} 
+.header-sticky.sticky-bar #quero-conhecer-menu {
+	background-color: #1E4F8C;
+	border: solid 1px #fff;
+	border-radius: 20px ;
+}
+.header-sticky #quero-conhecer-menu a:hover {
+	color: rgb(179, 214, 255);
+	padding-left: 24px;
+}
+.header-sticky #quero-conhecer-menu a {
+	padding: 6px 18px;
+	color: #fff;
+}
+.header-sticky #quero-conhecer-menu {
+	background-color: #1E4F8C;
+	border: solid 1px #fff;
+	
+	border-radius: 20px;
+}
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
 	padding: 20px 20px !important
 }
