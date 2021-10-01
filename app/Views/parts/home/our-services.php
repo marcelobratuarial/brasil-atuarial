@@ -1,6 +1,6 @@
 
 <!--? Categories Area Start -->
-<div class="categories-area">
+<div class="categories-area mb-150">
     <div class="container">
         <div class="row justify-content-sm-center">
             <div class="cl-xl-7 col-lg-8 col-md-10">

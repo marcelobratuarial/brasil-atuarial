@@ -1,7 +1,7 @@
 <!--? About Law Start-->
 <div class="about-area section-padding2">
     <div class="container">
-        <div class="row">
+        <div class="row section-paddingt30">
             <div class="col-lg-6 col-md-12">
                 <div class="about-caption mb-40">
                     <!-- Section Tittle -->
@@ -50,7 +50,7 @@
         </div>
         <div class="about-area">
             <div class="about-caption">
-                <ul class="row">                        
+                <ul class="row ">                        
                     <li><span class="flaticon-tools-and-utensils"></span> Gestão de Risco</li>
                     <li><span class="flaticon-graduated"></span> Gestão Financeira</li>
                     <li><span class="flaticon-communications-1"></span> Gestão Estratégica</li>

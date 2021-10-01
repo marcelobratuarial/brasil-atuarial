@@ -3266,7 +3266,7 @@ hr {
 
 .categories-area .single-cat  {
 	border: 1px solid #ddd;
-	padding: 26px 20px;
+	padding: 26px 30px;
 	-webkit-transition: all .4s ease-out 0s;
 	-moz-transition: all .4s ease-out 0s;
 	-ms-transition: all .4s ease-out 0s;
@@ -3293,12 +3293,12 @@ hr {
 @media (max-width: 768px) {
 	.categories-area .single-cat.reading {
 		transform: scale(1.1);
-		
+		padding-right: 50px;
 		z-index: 9;
 		position: absolute;
 	}
 	.categories-area .single-cat.reading .cat-cap {
-		max-height: 700px;
+		max-height: 900px;
 		transition: max-height 0.65s ease-in;
 		
 	}
@@ -3308,7 +3308,8 @@ hr {
 	
 	.categories-area .single-cat.reading {
 		background: #1e4f8c;
-		border: 1px solid transparent
+		border: 1px solid transparent;
+		padding-right: 50px;
 	}
 
 	.categories-area .single-cat.reading .cat-icon span {
@@ -3336,7 +3337,7 @@ hr {
 		position: absolute;
 	}
 	.categories-area .single-cat:hover .cat-cap {
-		max-height: 700px;
+		max-height: 900px;
 		transition: max-height 0.65s ease-in;
 		
 	}
