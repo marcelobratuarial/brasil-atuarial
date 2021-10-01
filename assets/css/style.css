@@ -2901,35 +2901,50 @@ hr {
 	left: 0;
 	z-index: 9
 }
-.header-sticky.sticky-bar #quero-conhecer-menu a {
-	color: rgb(179, 214, 255);
-	padding-left: 24px;
+.main-menu #quero-conhecer-menu {
+	display: none
 }
-.header-sticky.sticky-bar #quero-conhecer-menu a {
-	padding: 5px 20px;
-} 
-.header-sticky.sticky-bar #quero-conhecer-menu {
-	background-color: #1E4F8C;
-	border: solid 1px #fff;
+.mobile_menu .slicknav_nav li:last-child a:hover {
+	color: rgb(88, 159, 240);
+	transform: scale(1.010);
+	letter-spacing: 1px;
+}
+.mobile_menu .slicknav_nav li:last-child a {
+	color: #1E4F8C;
+	font-size: 1.1rem;
+}
+.mobile_menu .slicknav_nav li:last-child:hover {
+	background-color: #dbebff;
+	/* transition: background-color 1s ease-in; */
+}
+.mobile_menu .slicknav_nav li:last-child {
+	background-color: #fff;
+	border: solid 2px #1E4F8C;
+	border-radius: 20px ;
+	text-align: center;
+	transition: background-color 1s ease-in;
+}
+
+.header-info-right #quero-conhecer-topbar a:hover {
+	color: rgb(62, 124, 196);
+	padding-right: 24px;
+}
+.header-info-right #quero-conhecer-topbar a {
+	padding: 6px 18px;
+	color: #1E4F8C;
+}
+
+
+.header-info-right #quero-conhecer-topbar {
+	background-color: #fff;
+	border: solid 1px #1E4F8C;
 	border-radius: 20px ;
 }
-.header-sticky #quero-conhecer-menu a:hover {
-	color: rgb(179, 214, 255);
-	padding-left: 24px;
-}
-.header-sticky #quero-conhecer-menu a {
-	padding: 6px 18px;
-	color: #fff;
-}
-.header-sticky #quero-conhecer-menu {
-	background-color: #1E4F8C;
-	border: solid 1px #fff;
-	
-	border-radius: 20px;
-}
-.header-sticky.sticky-bar.sticky .main-menu ul li a {
+
+
+/* .header-sticky.sticky-bar.sticky .main-menu ul li a {
 	padding: 20px 20px !important
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-sticky.sticky-bar.sticky {

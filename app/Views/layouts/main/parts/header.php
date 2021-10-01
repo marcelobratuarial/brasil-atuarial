@@ -36,12 +36,13 @@
                                     <li>(31) 2510-8536</li>
                                 </ul>
                             </div>
-                            <!-- <div class="header-info-right">
+                            <div class="header-info-right">
                                 <ul>    
-                                    <li><a href="#"><i class="ti-user"></i>Login</a></li>
-                                    <li><a href="#"><i class="ti-lock"></i>Registrar</a></li>
+                                    <!-- <li><a href="#"><i class="ti-user"></i>Login</a></li> -->
+                                    <!-- <li><a href="#"><i class="ti-lock"></i>Registrar</a></li> -->
+                                    <li id="quero-conhecer-topbar"><a target="_blank" href="<?= base_url("/lp") ?>">Quero conhecer</a></li>
                                 </ul>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
