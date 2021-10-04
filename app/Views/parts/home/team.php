@@ -57,13 +57,13 @@
                         <p>Sócio Fundador</p>
                         <div class="team-content" style="text-align: justify; padding: 10px 22px;">
                             <p>
-                                Graduado em Ciências Atuariais com Especialização em Estatística pela UFMG, é Membro do Instituto Brasileiro de Atuária – MIBA 1771.
+                            Graduado em Ciências Atuariais com Especialização em Estatística pela UFMG, é Membro do Instituto Brasileiro de Atuária – MIBA 1771.
                             </p>
                             <p>    
-                                Como Cofundador da Brasil Atuarial, realiza trabalhos consultivos na distribuição massificada de assistências, seguros e benefícios. Aliando o entendimento técnico dos produtos e sua adequada precificação com a entrega Mobile para o cliente final, proporcionamos uma jornada simplificada na contratação desses serviços.
+                            Como fundador da Brasil Atuarial realiza trabalhos consultivos e educativos nas áreas de gestão de risco, gestão financeira, avaliação atuarial e gestão estratégica. Nessa trajetória, com mais de 20 anos de experiência no mercado de Seguros e Mutualista, acumulou experiência adequada para desenvolver trabalhos preventivos para a antecipação dos riscos, melhor entendimento da distribuição dos centros de custos nos fluxos de caixa de Entidades e Seguradoras e mensuração dos principais indicadores para uma melhor tomada de decisão estratégica.
                             </p>
                             <p>
-                                Com mais de 20 anos de experiência no mercado de Seguros e Mutualista, realiza trabalhos Atuariais de estruturação Tecnológica da área de Benefícios de Empresas, Sindicatos, Associações, Federações e Cooperativas uma relação Business to Business 100% digital e totalmente transparente.
+                            Mais recentemente especializou-se no desenvolvimento de projetos inovadores que apresentam produtos e/ou serviços a serem ofertados no âmbito do mercado de seguros por entidades interessadas em participar do Sandbox Regulatório implantado pela SUSEP.
                             </p>
                         </div>
                             
