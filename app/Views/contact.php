@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 text-center">
-                            <?php /* <h2>Fale conosco</h2> * /?>
+                            <?php /* <h2>Fale conosco</h2> */ ?>
                         </div>
                     </div>
                 </div>
