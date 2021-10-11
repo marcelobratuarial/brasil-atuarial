@@ -115,7 +115,7 @@
         dots: false,
         infinite: true,
         speed: 1000,
-        autoplay:false,
+        autoplay:true,
         loop:true,
         arrows: true,
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',

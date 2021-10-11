@@ -3051,15 +3051,15 @@ hr {
 
 .slider-height5 {
 	background-image: url(../img/hero/blog.jpg);
-	min-height: 355px;
+	min-height: 455px;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center 40%;
 	background-size: cover
 }
 
 .slider-height4 {
 	background-image: url(../img/hero/servicos.jpg);
-	min-height: 355px;
+	min-height: 455px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover
@@ -3067,7 +3067,7 @@ hr {
 
 .slider-height3 {
 	background-image: url(../img/hero/about.jpg);
-	min-height: 355px;
+	min-height: 455px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover
@@ -3075,7 +3075,7 @@ hr {
 
 .slider-height2 {
 	background-image: url(../img/hero/contact.jpg);
-	min-height: 355px;
+	min-height: 455px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover
