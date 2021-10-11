@@ -2904,6 +2904,16 @@ hr {
 .main-menu #quero-conhecer-menu {
 	display: none
 }
+
+.slider-area .hero-cap h2 {
+	opacity: 1;
+	transition: opacity 1s ease-in-out;
+}
+.slider-area .hero-cap h2.opcty {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
 .mobile_menu ul.slicknav_nav > li:last-child a:hover {
 	color: rgb(88, 159, 240);
 	transform: scale(1.010);
