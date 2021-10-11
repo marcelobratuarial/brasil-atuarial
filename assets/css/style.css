@@ -2907,10 +2907,12 @@ hr {
 .mobile_menu ul.slicknav_nav > li:last-child a:hover {
 	color: rgb(88, 159, 240);
 	transform: scale(1.010);
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 .mobile_menu ul.slicknav_nav > li:last-child a {
 	color: #1E4F8C;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	font-size: 1.1rem;
 }
 .mobile_menu ul.slicknav_nav > li:last-child:hover {
