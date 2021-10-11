@@ -153,13 +153,13 @@
       });
     }
 
-$(".slider-area .hero-cap h2").on("click", function() {
-  if($(this).hasClass("opcty")) {
-    $(this).removeClass("opcty")
-  } else {
-    $(this).addClass("opcty")
-  }
-})
+// $(".slider-area .hero-cap h2").on("click", function() {
+//   if($(this).hasClass("opcty")) {
+//     $(this).removeClass("opcty")
+//   } else {
+//     $(this).addClass("opcty")
+//   }
+// })
 
 /* 6. Nice Selectorp  */
   var nice_Select = $('select');
