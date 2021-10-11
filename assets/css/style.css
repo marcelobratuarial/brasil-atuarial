@@ -2904,23 +2904,23 @@ hr {
 .main-menu #quero-conhecer-menu {
 	display: none
 }
-.mobile_menu .slicknav_nav li:last-child a:hover {
+.mobile_menu ul.slicknav_nav > li:last-child a:hover {
 	color: rgb(88, 159, 240);
 	transform: scale(1.010);
 	letter-spacing: 1px;
 }
-.mobile_menu .slicknav_nav li:last-child a {
+.mobile_menu ul.slicknav_nav > li:last-child a {
 	color: #1E4F8C;
 	font-size: 1.1rem;
 }
-.mobile_menu .slicknav_nav li:last-child:hover {
+.mobile_menu ul.slicknav_nav > li:last-child:hover {
 	background-color: #dbebff;
 	/* transition: background-color 1s ease-in; */
 }
-.mobile_menu .slicknav_nav li:last-child {
+.mobile_menu ul.slicknav_nav > li:last-child {
 	background-color: #fff;
 	border: solid 2px #1E4F8C;
-	border-radius: 20px ;
+	border-radius: 40px ;
 	text-align: center;
 	transition: background-color 1s ease-in;
 }
