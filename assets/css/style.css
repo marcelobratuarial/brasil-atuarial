@@ -2559,6 +2559,12 @@ hr {
 	padding: 13px 70px
 }
 
+@media only screen and (min-width: 1801px) {
+	.header-area .header-top .header-left-social .header-social {
+		padding: 13px 29px;
+		margin-right: 10px
+	}
+}
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
 	.header-area .header-top .header-left-social .header-social {
 		padding: 13px 29px;
