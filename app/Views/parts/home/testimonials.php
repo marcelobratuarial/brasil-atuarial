@@ -15,7 +15,7 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/rodrigo.jpg") ?>" class="ani-btn " alt="">
+                            <img src="<?= base_url("assets/img/gallery/rodrigo-min.webp") ?>" class="ani-btn " alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
@@ -38,7 +38,7 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/alexandre-scarpelli.jpg") ?>" class="ani-btn " alt="">
+                            <img src="<?= base_url("assets/img/gallery/alexandre-scarpelli-min.webp") ?>" class="ani-btn " alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
@@ -62,7 +62,7 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/lions.jpg") ?>" class="ani-btn " alt="">
+                            <img src="<?= base_url("assets/img/gallery/lions-min.webp") ?>" class="ani-btn " alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
@@ -85,7 +85,7 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/andre-saliba.jpg") ?>" class="ani-btn " alt="">
+                            <img src="<?= base_url("assets/img/gallery/andre-saliba-min.webp") ?>" class="ani-btn " alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">

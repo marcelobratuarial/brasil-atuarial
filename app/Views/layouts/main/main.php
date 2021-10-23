@@ -21,25 +21,161 @@
     <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /> -->
     <meta property="og:locale" content="pt_BR" />
 	<!-- CSS here -->
-	<link rel="stylesheet" href="<?= base_url("assets/css/bootstrap.min.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/owl.carousel.min.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/slicknav.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("assets/css/flaticon.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("assets/css/gijgo.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/animate.min.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/magnific-popup.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/fontawesome-all.min.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/themify-icons.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/slick.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/nice-select.css") ?>">
-	<link rel="stylesheet" href="<?= base_url("assets/css/style.css") ."?".time() ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/bootstrap.min.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/owl.carousel.min.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/slicknav.css") ?>">
+    <link rel="preload" as="style" data-href="<?= base_url("assets/css/flaticon.css") ?>">
+    <link rel="preload" as="style" data-href="<?= base_url("assets/css/gijgo.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/animate.min.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/magnific-popup.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/fontawesome-all.min.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/themify-icons.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/slick.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/nice-select.css") ?>">
+	<link rel="preload" as="style" data-href="<?= base_url("assets/css/style.css") ?>">
     <style>
-        .team-img img {
-            object-fit: cover;
-            max-height: 300px;
-            object-position: center top;
-
+        
+        .preloader {
+            background-color: #f7f7f7;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999999;
+            -webkit-transition: .6s;
+            -o-transition: .6s;
+            transition: .6s;
+            margin: 0 auto
         }
+
+        .preloader .preloader-circle {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border-style: solid;
+            border-width: 1px;
+            border-top-color: #1e4f8c;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            z-index: 10;
+            border-radius: 50%;
+            -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+            box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+            background-color: #fff;
+            -webkit-animation: zoom 2000ms infinite ease;
+            animation: zoom 2000ms infinite ease;
+            -webkit-transition: .6s;
+            -o-transition: .6s;
+            transition: .6s
+        }
+
+        .preloader .preloader-circle2 {
+            border-top-color: #0078ff
+        }
+
+        .preloader .preloader-img {
+            position: absolute;
+            top: 50%;
+            z-index: 200;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+            display: inline-block;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding-top: 6px;
+            -webkit-transition: .6s;
+            -o-transition: .6s;
+            transition: .6s
+        }
+
+        .preloader .preloader-img img {
+            max-width: 55px
+        }
+
+        .preloader .pere-text strong {
+            font-weight: 800;
+            color: #dca73a;
+            text-transform: uppercase
+        }
+        
+@-webkit-keyframes heartbeat {
+	to {
+		-webkit-transform: scale(1.03);
+		transform: scale(1.03)
+	}
+}
+
+.rotateme {
+	-webkit-animation-name: rotateme;
+	animation-name: rotateme;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear
+}
+
+@keyframes rotateme {
+	from {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@-webkit-keyframes rotateme {
+	from {
+		-webkit-transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@-webkit-keyframes zoom {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: .6s;
+		-o-transition: .6s;
+		transition: .6s
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transition: .6s;
+		-o-transition: .6s;
+		transition: .6s
+	}
+}
+
+@keyframes zoom {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: .6s;
+		-o-transition: .6s;
+		transition: .6s
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transition: .6s;
+		-o-transition: .6s;
+		transition: .6s
+	}
+}
     </style>
 </head>
 <body>
@@ -178,44 +314,81 @@
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
-    <!-- JS here -->
-    <script src="<?= base_url("./assets/js/vendor/modernizr-3.5.0.min.js") ?>"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="<?= base_url("./assets/js/vendor/jquery-1.12.4.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/popper.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/bootstrap.min.js") ?>"></script>
+    <!-- JS here -->
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(() => {
+                $.each($("script[rel=preload]"), function(a,b) {
+                    // console.log(a)
+                    console.log(b)
+                    $(b)
+                    .attr("src", $(b).data("src")).removeAttr("rel")
+                    // .attr("rel", "stylesheet")
+                })
+                // $("link[rel=preload]")
+                // .attr("href", $("link[rel=preload]").data("href"))
+                // .attr("rel", "stylesheet")
+
+                $.each($("link[rel=preload]"), function(a,b) {
+                    // console.log(a)
+                    console.log(b)
+                    $(b)
+                    .attr("href", $(b).data("href"))
+                    .attr("rel", "stylesheet")
+                })
+            }, 200);
+        }) 
+        /* 1. Proloder */
+        $(window).on('load', function () {
+            $('#preloader-active').delay(450).fadeOut('slow');
+            $('body').delay(450).css({
+                'overflow': 'visible'
+            });
+        });
+    </script>
+    
+    
+    <script defer src="<?= base_url("./assets/js/vendor/modernizr-3.5.0.min.js") ?>"></script>
+
+
+    <script defer src="<?= base_url("./assets/js/popper.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/bootstrap.min.js") ?>"></script>
     <!-- Jquery Mobile Menu -->
-    <script src="<?= base_url("./assets/js/jquery.slicknav.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.slicknav.min.js") ?>"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="<?= base_url("./assets/js/owl.carousel.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/slick.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/owl.carousel.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/slick.min.js") ?>"></script>
     <!-- One Page, Animated-HeadLin -->
-    <script src="<?= base_url("./assets/js/wow.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/animated.headline.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/jquery.magnific-popup.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/wow.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/animated.headline.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.magnific-popup.js") ?>"></script>
 
     <!-- Date Picker -->
-    <script src="<?= base_url("./assets/js/gijgo.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/gijgo.min.js") ?>"></script>
     <!-- Nice-select, sticky -->
-    <script src="<?= base_url("./assets/js/jquery.nice-select.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/jquery.sticky.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.nice-select.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.sticky.js") ?>"></script>
     
     <!-- counter , waypoint -->
-    <script src="<?= base_url("./assets/js/jquery.counterup.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/waypoints.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.counterup.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/waypoints.min.js") ?>"></script>
     
     <!-- contact js -->
-    <script src="<?= base_url("./assets/js/contact.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/jquery.form.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/jquery.validate.min.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/mail-script.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/jquery.ajaxchimp.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/contact.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.form.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.validate.min.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/mail-script.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/jquery.ajaxchimp.min.js") ?>"></script>
     
     <!-- Jquery Plugins, main Jquery -->	
-    <script src="<?= base_url("./assets/js/plugins.js") ?>"></script>
-    <script src="<?= base_url("./assets/js/main.js") ?>"></script>
+    <script defer src="<?= base_url("./assets/js/plugins.js") ?>"></script>
+    <script rel="preload" defer data-src="<?= base_url("./assets/js/main.js") ?>"></script>
     <script>
+        
         var base_url = '<?= base_url('/') ?>';
     </script>
     </body>
