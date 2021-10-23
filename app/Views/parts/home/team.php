@@ -17,7 +17,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">
                     <div class="team-img">
-                        <img style="object-fit: cover; height: 300px" src="<?= base_url("assets/img/team/tamires-min.webp") ?>" alt="">
+                        <img style="object-fit: cover; height: 300px" class="lazy" data-src="<?= base_url("assets/img/team/tamires-min.webp") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
                             <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -44,7 +44,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6">
                 <div class="single-team mb-30">
                     <div class="team-img">
-                        <img style="object-fit: cover; height: 300px" src="<?= base_url("assets/img/team/enrico-min.webp") ?>" alt="">
+                        <img style="object-fit: cover; height: 300px" class="lazy" data-src="<?= base_url("assets/img/team/enrico-min.webp") ?>" alt="">
                         <!-- Blog Social -->
                         <ul class="team-social">
                             <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>

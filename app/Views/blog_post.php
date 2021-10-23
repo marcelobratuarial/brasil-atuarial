@@ -39,7 +39,7 @@
                <div class="col-lg-8 posts-list">
                   <div class="single-post"><?php //print_r($post); ?>
                      <div class="feature-img">
-                        <img class="" src="<?= (!empty($post["imagem"])) ? base_url($post["imagem"]) : base_url('/assets/img/no-image.jpg') ?>" alt="">
+                        <img class="lazy" data-src="<?= (!empty($post["imagem"])) ? base_url($post["imagem"]) : base_url('/assets/img/no-image.jpg') ?>" alt="">
                      </div>
                      <div class="blog_details">
                         <h2 style="color: #2d2d2d;"><?= $post["post_title"] ?>

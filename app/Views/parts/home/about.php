@@ -40,10 +40,10 @@
                 <!-- about-img -->
                 <div class="about-img ">
                     <div class="about-font-img d-none d-lg-block">
-                        <img src="<?= base_url("assets/img/gallery/about2-min.webp") ?>" alt="">
+                        <img class="lazy" data-src="<?= base_url("assets/img/gallery/about2-min.webp") ?>" alt="">
                     </div>
                     <div class="about-back-img ">
-                        <img src="<?= base_url("assets/img/gallery/about1-min.webp") ?>" alt="">
+                        <img class="lazy" data-src="<?= base_url("assets/img/gallery/about1-min.webp") ?>" alt="">
                     </div>
                 </div>
             </div>

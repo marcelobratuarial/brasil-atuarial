@@ -35,7 +35,7 @@
                         ?>
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="<?= (!empty($p["imagem"])) ? base_url($p["imagem"]) : base_url('/assets/img/no-image.jpg') ?>" alt="">
+                                <img class="card-img rounded-0 lazy" data-src="<?= (!empty($p["imagem"])) ? base_url($p["imagem"]) : base_url('/assets/img/no-image.jpg') ?>" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3><?= $p['dia']; ?></h3>
                                     <p><?= monthBR($p['mes']) ?></p>

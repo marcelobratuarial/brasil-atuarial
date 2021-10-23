@@ -323,7 +323,7 @@
             setTimeout(() => {
                 $.each($("script[rel=preload]"), function(a,b) {
                     // console.log(a)
-                    console.log(b)
+                    // console.log(b)
                     $(b)
                     .attr("src", $(b).data("src")).removeAttr("rel")
                     // .attr("rel", "stylesheet")
@@ -334,17 +334,41 @@
 
                 $.each($("link[rel=preload]"), function(a,b) {
                     // console.log(a)
-                    console.log(b)
+                    // console.log(b)
                     $(b)
                     .attr("href", $(b).data("href"))
                     .attr("rel", "stylesheet")
                 })
             }, 200);
         }) 
+
+        document.addEventListener("DOMContentLoaded", function() {
+        var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+            if ("IntersectionObserver" in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                        let lazyImage = entry.target;
+                        lazyImage.src = lazyImage.dataset.src;
+                        // lazyImage.srcset = lazyImage.dataset.srcset;
+                        lazyImage.classList.remove("lazy");
+                        lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(function(lazyImage) {
+                lazyImageObserver.observe(lazyImage);
+                });
+            } else {
+                // Possibly fall back to event handlers here
+            }
+        });
         /* 1. Proloder */
         $(window).on('load', function () {
-            $('#preloader-active').delay(450).fadeOut('slow');
-            $('body').delay(450).css({
+            $('#preloader-active').delay(250).fadeOut('slow');
+            $('body').delay(250).css({
                 'overflow': 'visible'
             });
         });
