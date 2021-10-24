@@ -18,7 +18,7 @@
                 <div class="home-blog-single mb-20">
                     <div class="blog-img-cap">
                         <div class="blog-img">
-                            <img src="<?= base_url($p['imagem']) ?>" alt="">
+                            <img class="lazy" data-src="<?= base_url($p['imagem']) ?>" alt="">
                             <!-- Blog date -->
                             <div class="blog-date text-center">
                                 <span><?= $p['dia']; ?></span>

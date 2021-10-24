@@ -15,7 +15,7 @@
                     <div class="single-testimonial pt-65">
                         <!-- Testimonial tittle -->
                         <div class="testimonial-icon mb-45">
-                            <img src="<?= base_url("assets/img/gallery/rodrigo-min.webp") ?>" class="ani-btn " alt="">
+                            <img data-src="<?= base_url("assets/img/gallery/rodrigo-min.webp") ?>" class="ani-btn lazy" alt="">
                         </div>
                             <!-- Testimonial Content -->
                         <div class="testimonial-caption text-center">
