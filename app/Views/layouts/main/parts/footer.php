@@ -100,7 +100,7 @@
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por <a href="https://agenciabrasildigital.com.br" target="_blank">Agência Brasil Digital</a>
+                            Copyright &copy;<?= date("Y") ?> Todos os direitos reservados | Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por <a href="https://agenciabrasildigital.com.br" target="_blank">Agência Brasil Digital</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
