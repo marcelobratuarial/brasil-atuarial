@@ -30,7 +30,7 @@
                     <div class="about-details-cap mb-50">
                         <h4>Sobre</h4>
                         <p>
-                            A <strong>Brasil Atuarial</strong> é uma empresa especializada na prestação de serviços de assessoria e de consultoria atuarial. Fundada em 2014, com o
+                            A <strong>Brasil Atuarial</strong> é uma empresa especializada na prestação de serviços de assessoria e de Consultoria Atuarial. Fundada em 2014, com o
                             propósito bem definido de oferecer soluções estratégicas e customizadas à necessidade de cada um dos nossos clientes, bem como objetiva
                             suprir as demandas atuariais nas áreas de seguros e de entidades de autogestão de planos contra riscos patrimoniais, oferecendo todo o
                             suporte técnico-atuarial e operacional necessários.
@@ -41,7 +41,7 @@
                     <div class="about-details-cap mb-50">
                         <h4>Missão</h4>
                         <p>
-                        Ofertar serviços em assessoria e consultoria atuarial que atendam as necessidades dos nossos clientes segundo princípios éticos e
+                        Ofertar serviços em assessoria e Consultoria Atuarial que atendam as necessidades dos nossos clientes segundo princípios éticos e
 profissionais.
                         </p>
                     </div>

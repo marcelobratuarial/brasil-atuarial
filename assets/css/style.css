@@ -2932,6 +2932,13 @@ hr {
 		/* background-image: url("../img/hero/heroman.png"); */
 	}
 }
+.slider-height6 {
+	background-image: url(../img/hero/capa-brasil.png);
+	min-height: 455px;
+	background-repeat: no-repeat;
+	background-position: center 40%;
+	background-size: cover
+}
 
 .slider-height5 {
 	background-image: url(../img/hero/blog.jpg);

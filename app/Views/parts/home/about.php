@@ -7,7 +7,7 @@
                     <!-- Section Tittle -->
                     <div class="section-tittle mb-35 text-center">
                         <!-- <span>Sobre o grupo</span> -->
-                        <h2>Nós somos uma empresa de desenvolvimento de consultoria atuarial</h2>
+                        <h2>Nós somos uma empresa de desenvolvimento de Consultoria Atuarial</h2>
                     </div>
                     <p style="text-align: justify">O que fazemos é trazer soluções em gestão de risco e gestão financeira para as 
                     entidades mutualistas, realizando trabalhos com base na própria experiência estatística 

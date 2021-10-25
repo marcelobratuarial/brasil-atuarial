@@ -19,12 +19,12 @@
    }(document, 'script', 'facebook-jssdk'));</script>
     <!--? Hero Start -->
     <div class="slider-area ">
-         <div class="slider-height2 d-flex align-items-center">
+         <div class="slider-height6 d-flex align-items-center">
                <div class="container">
                   <div class="row">
                      <div class="col-xl-12">
                            <div class="hero-cap hero-cap2 text-center">
-                              <h2><?= $post['post_title'] ?></h2>
+                              <!-- <h2><?= $post['post_title'] ?></h2> -->
                            </div>
                      </div>
                   </div>
