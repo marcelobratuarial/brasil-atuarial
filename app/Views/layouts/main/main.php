@@ -339,7 +339,7 @@
                     .attr("href", $(b).data("href"))
                     .attr("rel", "stylesheet")
                 })
-            }, 200);
+            }, 240);
         }) 
 
         document.addEventListener("DOMContentLoaded", function() {
@@ -410,7 +410,7 @@
     
     <!-- Jquery Plugins, main Jquery -->	
     <script rel="preload" async data-src="<?= base_url("./assets/js/plugins.js") ?>"></script>
-    <script rel="preload" data-src="<?= base_url("./assets/js/main.js") ?>"></script>
+    <script rel="preload" async data-src="<?= base_url("./assets/js/main.js") ?>"></script>
     <script>
         
         var base_url = '<?= base_url('/') ?>';

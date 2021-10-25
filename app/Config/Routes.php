@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+$routes->get('/grupo', 'Home::grupo', ['as' => 'grupo']);
 $routes->get('/register', 'RegisterController::index');
 $routes->get('/login', 'LoginController::index');
 $routes->get('/dashboard', 'DashboardController::index',['filter' => 'routeFilter']);
@@ -51,6 +52,9 @@ $routes->post('/dash/post/publish', 'DashboardController::publishPost',['filter'
 $routes->post('/dash/post/fileupload', 'DashboardController::fileUpload',['filter' => 'routeFilter']);
 
 $routes->get('/logout', 'LoginController::logout');
+
+$routes->get('/atuarial', 'Home::setChoice');
+$routes->get('/limpa', 'Home::clearChoice');
 
 $routes->get('/', 'Pages::index', ['as' => 'hoome']);
 $routes->get('/sobre', 'Pages::about', ['as' => 'ab']);

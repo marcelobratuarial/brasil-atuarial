@@ -49,7 +49,22 @@ class BaseController extends Controller
 	{
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
-
+		
+		if(uri_string() == '/') {
+			$session = session();
+			$choice = $session->get('atuarial');
+			// var_dump($choice);
+			if(!$choice) {
+				// echo "teste1";
+				return $response->redirect(base_url('grupo'));
+			} else {
+				// echo uri_string();
+			}
+		} else {
+			//  echo "teste";
+		}
+		
+		
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
 		//--------------------------------------------------------------------
