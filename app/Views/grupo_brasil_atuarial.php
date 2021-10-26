@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/common.css") ?>" />
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/style.css") ?>" />
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/style4.css") ?>" />
+    
     <title>Grupo Brasil Atuarial</title>
      <style>
         li .ch-item {
@@ -53,17 +54,23 @@
             justify-content: flex-start;
         }
         
+        .display.active .container-content .logo-place {
+            transform: translate(-110px, -150px);
+            width: auto;
+            height: auto;
+            background: red;
+        }
         .display.active .content {
             opacity: 1;
-            transition: all 1s ease;
-            background: #fff;
+            transition: all 0.2s ease;
+            /* background: #fff; */
             text-align: center;
             margin-top: 50px;
         }
         .display .content {
             opacity: 0;
             /* display: none; */
-            transition: all 1s ease;
+            transition: all 0.2s ease;
         }
         .display {
             cursor: pointer;
@@ -102,11 +109,67 @@
             transition: all 1s ease;
             display: none;
         }  
+        .content .btn {
+            padding: 20px 24px;
+        }
+        .btn {
+            background: #1e4f8c;
+            padding: 10px 14px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0px;
+            -moz-user-select: none;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 0;
+            margin-bottom: 0;
+            margin: 10px;
+            cursor: pointer;
+            transition: color 0.4s linear;
+            position: relative;
+            z-index: 1;
+            border: 0;
+            overflow: hidden;
+            margin: 0
+        }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 101%;
+            height: 101%;
+            background: #3e44ec;
+            z-index: 1;
+            border-radius: 5px;
+            transition: transform 0.5s;
+            transition-timing-function: ease;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+            transform: scaleX(0);
+            border-radius: 0px
+        }
+
+        .btn:hover::before {
+            transform: scaleX(1);
+            color: #fff !important;
+            z-index: -1
+        }
+
+        .btn.focus,
+        .btn:focus {
+            outline: 0;
+            box-shadow: none
+        }
+
      </style>
 </head>
 
 <body>
-<div class="container" style="position:absolute;">
+<div class="container" style="position: absolute">
 		
         <h1>Seja bem-vindo ao <br>Grupo Brasil Atuarial</h1>
         
@@ -120,13 +183,18 @@
                                 <div class="ch-info-front ch-img-1"></div>
                                 <div class="ch-info-back">
                                     <h3>BRASIL ATUARIAL</h3>
-                                    <p>CONSULTORIA <a href="#">ACESSAR SITE</a></p>
+                                    <p>CONSULTORIA</p>
+                                    <form action="<?= base_url("/atuarial")?>" method="get">
+                                        <button class="btn btn-primary">
+                                            Acessar
+                                        </button>
+                                    </form>
                                 </div>	
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <img src="<?= base_url("assets/img/grupo-logos/brasil-atuarial.png") ?>" />
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-atuarial.png") ?>" /> -->
                         <p>Nós somos uma empresa de desenvolvimento de Consultoria Atuarial para Entidades do 3 Setor e Insurtechs.</p>
                         <p>Atualmente somos a empresa que fornece gratuitamente a maior gama de conteúdos sobre o segmento Mutualista.</p>
                         <form action="<?= base_url("/atuarial")?>" method="get">
@@ -144,17 +212,18 @@
                                 <div class="ch-info-front ch-img-2"></div>
                                 <div class="ch-info-back">
                                     <h3>DYGO</h3>
-                                    <p>Universidade Corporativa <a href="#">ACESSAR SITE</a></p>
+                                    <p>Universidade Corporativa</p>
+                                    <a class="btn btn-primary" href="https://dygo.com.br">Acessar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <img src="<?= base_url("assets/img/grupo-logos/dygo.jpg") ?>" />
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/dygo.jpg") ?>" /> -->
                         <p>A DYGO é a primeira plataforma de Ensino a Distância do Brasil totalmente personalizada para Entidades Mútuas com cursos 
                             100% online e avaliação de desempenho do aprendizado após o treinamento, possibilitando dessa forma a 
                             expansão da atividade das Entidades a nível nacional com qualificação garantida.</p>
-                            <a href="https://dygo.com.br" class="btn btn-primary">Acessar DYGO</a>
+                            <a class="btn btn-primary" href="https://dygo.com.br" class="btn btn-primary">Acessar DYGO</a>
                     </div>
                 </li>
                 <li>
@@ -164,13 +233,14 @@
                                 <div class="ch-info-front ch-img-3"></div>
                                 <div class="ch-info-back">
                                     <h3>BRASIL BENEFÍCIOS</h3>
-                                    <p>CENTRAL DE BENEFÍCIOS <a href="#">ACESSAR SITE</a></p>
+                                    <p>CENTRAL DE BENEFÍCIOS</p>
+                                    <a class="btn btn-primary" href="https://brasilbeneficios.club">Acessar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" />
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" /> -->
                         <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
                             Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
                         <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar Brasil Benefícios</a>
@@ -184,22 +254,25 @@
                                 <div class="ch-info-front ch-img-4"></div>
                                 <div class="ch-info-back">
                                     <h3>BRASIL DIGITAL</h3>
-                                    <p>AGÊNCIA DE MARKETING <a href="#">ACESSAR SITE</a></p>
+                                    <p>AGÊNCIA DE MARKETING</p>
+                                    <a class="btn btn-primary" href="https://agenciabrasildigital.com.br">Acessar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <img src="<?= base_url("assets/img/grupo-logos/agencia-brasil-digital.png") ?>" />
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/agencia-brasil-digital.png") ?>" /> -->
                         <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
                             Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
-                        <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar Brasil Benefícios</a>
+                        <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar Agência Brasil Digital</a>
                     </div>
                 </li>
                 
             </ul>
             
         </section>
+    </div>
+    <div style="display:none;" class="logo-place">
     </div>
     <?php /*
     <div class="all-container">
@@ -274,12 +347,20 @@
                     
                 } else {
 
-                    var a = $(this).closest("li").find(".content")
-                    console.log(a)
-                    $(a).clone().appendTo(".display .container-content");
-                    let removeActive = new Promise((resolve) => {
+                    var logoItem = $(this).closest("li").find(".ch-item")
+                    var contentBox = $(this).closest("li").find(".content")
+                    var logoPlace = $('.logo-place')
+                    $(contentBox).clone().appendTo(".display .container-content");
+                    $(logoPlace).clone().prependTo(".display .container-content")
+                    $(logoItem).clone().appendTo(".display .container-content .logo-place")
+                    
+                    console.log(logoItem)
+                    // $(logoItem).clone().appendTo($(lp))
+                    // $(lp).clone().prependTo(".display .container-content");
+                    // $(logoItem).clone().prependTo(".display .container-content .logo-place");
+                    let addActive = new Promise((resolve) => {
                         $(".display").addClass("show")
-
+                        $(".display .logo-place").fadeIn(500)
                         setTimeout(() => {
                             // console.log("teste")
                             $(".display .container-content").addClass("show")    
@@ -299,6 +380,7 @@
         })
         
     </script>
+    <script src="<?= base_url("assets/js/intro/script.js") ?>"></script>
 </body>
 
 </html>
