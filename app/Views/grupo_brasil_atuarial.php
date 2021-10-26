@@ -13,9 +13,14 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/common.css") ?>" />
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/style.css") ?>" />
     <link rel="stylesheet" type="text/css" href="<?= base_url("/assets/css/intro/style4.css") ?>" />
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
     <title>Grupo Brasil Atuarial</title>
      <style>
+        body, * {
+            font-family: 'Montserrat', sans-serif !important;
+        }
         li .ch-item {
             cursor: pointer;
         }
@@ -24,7 +29,7 @@
             opacity: 1;
         }
         .display.active {
-            
+            position: fixed;
             display: flex !important;
             flex-direction: column;
             align-items: center;
@@ -37,21 +42,20 @@
             align-items: center;
             justify-content: flex-start;
         }
-        .display.active .container-content {
-            border: solid 1px #c2c2c2;
-            padding: 30px;
-            border-radius: 30px;
-        }
+       
         .display.active .container-content {
             opacity: 1;
             transition: all 1s ease;
             background: #fff;
-            width: 500px;
+            max-width: 555px;
             height: fit-content;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
+            border: solid 1px #c2c2c2;
+            padding: 30px;
+            border-radius: 30px;
         }
         
         .display.active .container-content .logo-place {
@@ -90,15 +94,7 @@
             justify-content: space-evenly;
             transition: all 1s ease;
         }
-        @media (max-width: 768px) {
-            
-            .display.active .container-content {
-                width: 400px;
-            }
-            /* .wrap div > img, .display div > img {
-                margin-top: 50px;
-            } */
-        }
+        
         .display div > img {
             max-width: 160px;
             cursor: pointer;
@@ -164,12 +160,26 @@
             outline: 0;
             box-shadow: none
         }
-
+        @media (max-width: 768px) {
+            
+            .display.active .container-content {
+                width: 80%;
+            }
+            /* .wrap div > img, .display div > img {
+                margin-top: 50px;
+            } */
+            h1 {
+                font-size: 1.8rem;
+            }
+            .content .btn {
+                padding: 20px 12px;
+            }
+        }
      </style>
 </head>
 
 <body>
-<div class="container" style="position: absolute">
+    <div class="container" style="position: absolute">
 		
         <h1>Seja bem-vindo ao <br>Grupo Brasil Atuarial</h1>
         
@@ -199,7 +209,7 @@
                         <p>Atualmente somos a empresa que fornece gratuitamente a maior gama de conteúdos sobre o segmento Mutualista.</p>
                         <form action="<?= base_url("/atuarial")?>" method="get">
                             <button class="btn btn-primary">
-                                Acessar Brasil Atuarial
+                                Acessar
                             </button>
                         </form>
                         
@@ -223,7 +233,7 @@
                         <p>A DYGO é a primeira plataforma de Ensino a Distância do Brasil totalmente personalizada para Entidades Mútuas com cursos 
                             100% online e avaliação de desempenho do aprendizado após o treinamento, possibilitando dessa forma a 
                             expansão da atividade das Entidades a nível nacional com qualificação garantida.</p>
-                            <a class="btn btn-primary" href="https://dygo.com.br" class="btn btn-primary">Acessar DYGO</a>
+                            <a class="btn btn-primary" href="https://dygo.com.br" class="btn btn-primary">Acessar</a>
                     </div>
                 </li>
                 <li>
@@ -243,7 +253,7 @@
                         <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" /> -->
                         <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
                             Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
-                        <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar Brasil Benefícios</a>
+                        <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar</a>
                     </div>
                 </li>
                 
@@ -264,16 +274,20 @@
                         <!-- <img src="<?= base_url("assets/img/grupo-logos/agencia-brasil-digital.png") ?>" /> -->
                         <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
                             Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
-                        <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar Agência Brasil Digital</a>
+                        <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar</a>
                     </div>
                 </li>
                 
             </ul>
             
         </section>
+        <div style="display:none;" class="logo-place">
+        </div>
+        <div class="display">
+            <div class="container-content"></div>
+        </div> 
     </div>
-    <div style="display:none;" class="logo-place">
-    </div>
+    
     <?php /*
     <div class="all-container">
         <h2 class="text-center">Bem vindo(a) ao Grupo Brasil Atuarial</h2>
@@ -320,9 +334,7 @@
         </div>
     </div>
     */?>
-    <div class="display">
-        <div class="container-content"></div>
-    </div> 
+    
     <script src="<?= base_url("./assets/js/vendor/jquery-1.12.4.min.js") ?>"></script>
     <script>
         $(document).ready(function() {
@@ -380,7 +392,7 @@
         })
         
     </script>
-    <script src="<?= base_url("assets/js/intro/script.js") ?>"></script>
+    <!-- <script src="<?= base_url("assets/js/intro/script.js") ?>"></script> -->
 </body>
 
 </html>
