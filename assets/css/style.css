@@ -2939,7 +2939,12 @@ hr {
 	background-position: center 40%;
 	background-size: cover
 }
-
+@media (max-width: 768px) {
+	.slider-height6 {
+		min-height: 340px;
+		background-image: url(../img/hero/capa-brasil-m.png);
+	}
+}
 .slider-height5 {
 	background-image: url(../img/hero/blog.jpg);
 	min-height: 455px;

@@ -272,8 +272,7 @@
                     </div>
                     <div class="content">
                         <!-- <img src="<?= base_url("assets/img/grupo-logos/agencia-brasil-digital.png") ?>" /> -->
-                        <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
-                            Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
+                        <p>Nós somos uma agência de marketing digital que conta com um hub de profissionais multidisciplinares focados em resultados.</p>
                         <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar</a>
                     </div>
                 </li>
