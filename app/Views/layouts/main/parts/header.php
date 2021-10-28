@@ -13,7 +13,7 @@
 <!-- <a href="<?= base_url('/'). route_to('hoome') ?>">Teste</a> -->
 
 
-<header>
+<header style="z-index: 9999 !important; position:relative">
     <!-- Header Start -->
     <div class="header-area">
         <div class="main-header ">

@@ -214,14 +214,55 @@
     isMobile = window.matchMedia("(max-width: 768px)").matches;
     
   });
+  function removeClone(){
+    // $(e)[0].remove()
+    // $(e)[0].remove()
+    console.log($(document).find(".single-cat-clone").length)
+    $(document).find(".single-cat-clone").remove()
+    console.log($(document).find(".single-cat-clone").length)
+    
+
+      if($(document).find(".single-cat-clone").length > 0) {
+        console.log("tenta novamente")
+        removeClone()
+      } else { 
+        console.log("removidos")
+        return true
+      }
+  }
   $(".single-cat").on("click", function () {
     // console.warn(isMobile)
-    $(".single-cat").not(this).removeClass('reading')
-    if($(this).hasClass("reading")) {
-      $(this).removeClass('reading')
-    } else {
-      $(this).addClass('reading')
-    }
+    const el = this
+    // var clone = $(this);
+    // console.log(this)
+    // console.log(clone)
+    var p = new Promise((resolve, reject) => {
+      // var r = removeClone()
+      $(".single-cat").not(el).removeClass('reading')
+      // if(r) {
+      //   // $(".single-cat").not(el).removeClass('reading')
+      //   // console.log(el)
+      //   // $(el).clone().addClass("single-cat-clone").insertAfter(el)
+      // }
+      resolve()
+      
+    }).then(() => {
+      // $(".single-cat").not(el).removeClass('reading')
+      // console.log(el)
+      // $(el).clone().addClass("single-cat-clone").insertAfter(el)
+      // $clone.appendTo(el).addClass("single-cat-clone");
+      // $(".single-cat-clone").remove()
+    }).then(() => {
+      
+      // .removeClass('reading')
+      if($(el).hasClass("reading")) {
+        $(el).removeClass('reading')
+        // var r = removeClone()
+        // console.log(r)
+      } else {
+        $(el).addClass('reading')
+      }
+    })
     // if(alert("mobile"))
   })
 })(jQuery);

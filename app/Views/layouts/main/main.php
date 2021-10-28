@@ -187,121 +187,6 @@
     
         
         
-        <!--? Popular Course Start 
-        <div class="popular-course section-padding30">
-            <div class="container">
-                <div class="row justify-content-sm-center">
-                    <div class="cl-xl-7 col-lg-8 col-md-10">
-                  
-                        <div class="section-tittle text-center mb-70">
-                            <span>Most Popular Course Of This Week</span>
-                            <h2>Our Popular Course</h2>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                    
-                        <div class="single-course mb-40">
-                            <div class="course-img">
-                                <img src="assets/img/gallery/popular_sub1.png" alt="">
-                            </div>
-                            <div class="course-caption">
-                                <div class="course-cap-top">
-                                    <h4><a href="#">Graphic Design</a></h4>
-                                </div>
-                                <div class="course-cap-mid d-flex justify-content-between">
-                                    <div class="course-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <ul><li>52 Review</li></ul>
-                                </div>
-                                <div class="course-cap-bottom d-flex justify-content-between">
-                                    <ul>
-                                        <li><i class="ti-user"></i> 562</li>
-                                        <li><i class="ti-heart"></i> 562</li>
-                                    </ul>
-                                    <span>Free</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-       
-                        <div class="single-course mb-40">
-                            <div class="course-img">
-                                <img src="assets/img/gallery/popular_sub2.png" alt="">
-                            </div>
-                            <div class="course-caption">
-                                <div class="course-cap-top">
-                                    <h4><a href="#">Web Development</a></h4>
-                                </div>
-                                <div class="course-cap-mid d-flex justify-content-between">
-                                    <div class="course-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <ul><li>52 Review</li></ul>
-                                </div>
-                                <div class="course-cap-bottom d-flex justify-content-between">
-                                    <ul>
-                                        <li><i class="ti-user"></i> 562</li>
-                                        <li><i class="ti-heart"></i> 562</li>
-                                    </ul>
-                                    <span>Free</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-               
-                        <div class="single-course mb-40">
-                            <div class="course-img">
-                                <img src="assets/img/gallery/popular_sub3.png" alt="">
-                            </div>
-                            <div class="course-caption">
-                                <div class="course-cap-top">
-                                    <h4><a href="#">Digital Marketing</a></h4>
-                                </div>
-                                <div class="course-cap-mid d-flex justify-content-between">
-                                    <div class="course-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <ul><li>52 Review</li></ul>
-                                </div>
-                                <div class="course-cap-bottom d-flex justify-content-between">
-                                    <ul>
-                                        <li><i class="ti-user"></i> 562</li>
-                                        <li><i class="ti-heart"></i> 562</li>
-                                    </ul>
-                                    <span>Free</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-         
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="browse-btn2 text-center mt-50">
-                            <a href="courses.html" class="btn">Find More Courses</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Popular Course End -->
         
         
     </main>
@@ -324,9 +209,16 @@
                 $.each($("script[rel=preload]"), function(a,b) {
                     // console.log(a)
                     // console.log(b)
-                    $(b)
-                    .attr("src", $(b).data("src")).removeAttr("rel")
-                    // .attr("rel", "stylesheet")
+                    var p = new Promise((resolve, reject) => {
+                        // console.log("teste")
+                        $(b)
+                        .attr("src", $(b).data("src")).removeAttr("rel")
+                        resolve("OK")
+                        // .attr("rel", "stylesheet")
+                    }).then(()=>{
+                        // console.log("resolvido")
+                    })
+                    
                 })
                 // $("link[rel=preload]")
                 // .attr("href", $("link[rel=preload]").data("href"))
@@ -375,42 +267,42 @@
     </script>
     
     
-    <script rel="preload" async data-src="<?= base_url("./assets/js/vendor/modernizr-3.5.0.min.js") ?>"></script>
-
-
     <script rel="preload" async data-src="<?= base_url("./assets/js/popper.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/bootstrap.min.js") ?>"></script>
-    <!-- Jquery Mobile Menu -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.slicknav.min.js") ?>"></script>
-
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/owl.carousel.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/slick.min.js") ?>"></script>
+    <script rel="preload" data-src="<?= base_url("./assets/js/bootstrap.min.js") ?>"></script>
+    <script src="<?= base_url("./assets/js/vendor/modernizr-3.5.0.min.js") ?>"></script>
     <!-- One Page, Animated-HeadLin -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/wow.min.js") ?>"></script>
+    <script rel="preload" data-src="<?= base_url("./assets/js/wow.min.js") ?>"></script>
     <script rel="preload" async data-src="<?= base_url("./assets/js/animated.headline.js") ?>"></script>
     <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.magnific-popup.js") ?>"></script>
-
+    
     <!-- Date Picker -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/gijgo.min.js") ?>"></script>
+    <script src="<?= base_url("./assets/js/gijgo.min.js") ?>"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script rel="preload" data-src="<?= base_url("./assets/js/jquery.slicknav.min.js") ?>"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script rel="preload"  data-src="<?= base_url("./assets/js/owl.carousel.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/slick.min.js") ?>"></script>
+    
     <!-- Nice-select, sticky -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.nice-select.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.sticky.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.nice-select.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.sticky.js") ?>"></script>
     
     <!-- counter , waypoint -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.counterup.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/waypoints.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.counterup.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/waypoints.min.js") ?>"></script>
     
     <!-- contact js -->
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.validate.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.ajaxchimp.min.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/jquery.form.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/contact.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/mail-script.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.validate.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.ajaxchimp.min.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/jquery.form.js") ?>"></script>
+    <script rel="preload"  data-src="<?= base_url("./assets/js/contact.js") ?>"></script>
+    <?php /*<script rel="preload"  data-src="<?= base_url("./assets/js/mail-script.js") ?>"></script> */ ?>
     
     <!-- Jquery Plugins, main Jquery -->	
-    <script rel="preload" async data-src="<?= base_url("./assets/js/plugins.js") ?>"></script>
-    <script rel="preload" async data-src="<?= base_url("./assets/js/main.js") ?>"></script>
+    <!-- <script rel="preload"  data-src="<?= base_url("./assets/js/plugins.js") ?>"></script> -->
+    <script rel="preload"  data-src="<?= base_url("./assets/js/main.js?".time()) ?>"></script>
     <script>
         
         var base_url = '<?= base_url('/') ?>';
