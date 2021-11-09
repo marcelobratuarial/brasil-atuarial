@@ -3191,7 +3191,7 @@ hr {
 		transform: scale(1.1);
 		padding-right: 50px;
 		z-index: 9;
-		position: absolute;
+		/* position: absolute; */
 	}
 	.categories-area .single-cat.reading .cat-cap {
 		max-height: 900px;

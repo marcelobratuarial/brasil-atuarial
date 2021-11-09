@@ -1,6 +1,6 @@
 
 <!--? slider Area Start-->
-<div class="slider-area ">
+<div class="slider-area " style="z-index: 9998 !important">
     <div class="slider-active">
         <!-- Single Slider -->
         <div class="single-slider slider-height d-flex ">
