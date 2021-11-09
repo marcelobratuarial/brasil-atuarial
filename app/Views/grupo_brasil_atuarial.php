@@ -216,6 +216,26 @@
                     </div>
                 </li>
                 <li>
+                    <div class="ch-item ch-img-3">
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-3"></div>
+                                <div class="ch-info-back">
+                                    <h3>BRASIL BENEFÍCIOS</h3>
+                                    <p>CENTRAL DE BENEFÍCIOS</p>
+                                    <a class="btn btn-primary" href="https://brasilbeneficios.club">Acessar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" /> -->
+                        <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
+                            Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
+                        <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar</a>
+                    </div>
+                </li>
+                <li>
                     <div class="ch-item ch-img-2">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
@@ -236,27 +256,6 @@
                             <a class="btn btn-primary" href="https://dygo.com.br" class="btn btn-primary">Acessar</a>
                     </div>
                 </li>
-                <li>
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-3"></div>
-                                <div class="ch-info-back">
-                                    <h3>BRASIL BENEFÍCIOS</h3>
-                                    <p>CENTRAL DE BENEFÍCIOS</p>
-                                    <a class="btn btn-primary" href="https://brasilbeneficios.club">Acessar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" /> -->
-                        <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
-                            Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
-                        <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar</a>
-                    </div>
-                </li>
-                
                 <li>
                     <div class="ch-item ch-img-4">
                         <div class="ch-info-wrap">
