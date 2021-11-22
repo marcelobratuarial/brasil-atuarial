@@ -21,18 +21,19 @@
     <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /> -->
     <meta property="og:locale" content="pt_BR" />
 	<!-- CSS here -->
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/bootstrap.min.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/owl.carousel.min.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/slicknav.css") ?>">
-    <link rel="preload" as="style" data-href="<?= base_url("assets/css/flaticon.css") ?>">
-    <link rel="preload" as="style" data-href="<?= base_url("assets/css/gijgo.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/animate.min.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/magnific-popup.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/fontawesome-all.min.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/themify-icons.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/slick.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/nice-select.css") ?>">
-	<link rel="preload" as="style" data-href="<?= base_url("assets/css/style.css") ?>">
+    
+	<link defer rel="preload" as="style" data-href="<?= base_url("assets/css/bootstrap.min.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/owl.carousel.min.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/slicknav.css") ?>">
+    <link async rel="preload" as="style" data-href="<?= base_url("assets/css/flaticon.css") ?>">
+    <link async rel="preload" as="style" data-href="<?= base_url("assets/css/gijgo.css") ?>">
+	<link defer rel="preload" as="style" data-href="<?= base_url("assets/css/animate.min.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/magnific-popup.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/fontawesome-all.min.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/themify-icons.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/slick.css") ?>">
+	<link async rel="preload" as="style" data-href="<?= base_url("assets/css/nice-select.css") ?>">
+	<link async rel="stylesheet" href="<?= base_url("assets/css/style.css") ?>">
     <style>
         
         .preloader {
