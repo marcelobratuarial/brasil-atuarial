@@ -8,6 +8,7 @@
 	url("../fonts/bree/4cf604dc2c43084cb09e87c88454e28c.woff") format("woff"), /* chrome、firefox */
 	url("../fonts/bree/4cf604dc2c43084cb09e87c88454e28c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 	url("../fonts/bree/4cf604dc2c43084cb09e87c88454e28c.svg#Bree W01 Thin") format("svg"); /* iOS 4.1- */
+	font-display: swap;
 }
 
 
