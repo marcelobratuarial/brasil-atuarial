@@ -9,12 +9,12 @@
     <?php //print_r($posts); ?>
     <!--? Hero Start -->
     <div class="slider-area ">
-        <div class="slider-height5 d-flex align-items-center">
+        <div class="slider-height6 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 text-center">
-                            <h2>Blog</h2>
+                            <!-- <h2>Blog</h2> -->
                         </div>
                     </div>
                 </div>
