@@ -63,8 +63,8 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Avenida Sebastião de Brito, 805</h3>
-                            <p>Dona Clara - Belo Horizonte/MG</p>
+                            <h3>Rua Batista Santiago, 81</h3>
+                            <p>Liberdade - Belo Horizonte/MG</p>
                         </div>
                     </div>
                     <div class="media contact-info">
