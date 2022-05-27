@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                <!-- about-img -->
+                <!-- about-img --><?php /*
                 <div class="about-img ">
                     <div class="about-font-img d-none d-lg-block">
                         <img class="lazy" data-src="<?= base_url("assets/img/gallery/about2-min.webp") ?>" alt="">
@@ -45,7 +45,10 @@
                     <div class="about-back-img ">
                         <img class="lazy" data-src="<?= base_url("assets/img/gallery/about1-min.webp") ?>" alt="">
                     </div>
-                </div>
+                </div> */ ?>
+                <!-- <iframe src="https://player.vimeo.com/video/711219530?h=75cd9a2dc7" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+                <iframe src="https://player.vimeo.com/video/714565039?h=22a38e8af5&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
             </div>
         </div>
         <div class="about-area">
