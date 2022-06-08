@@ -47,7 +47,10 @@
                     </div>
                 </div> */ ?>
                 <!-- <iframe src="https://player.vimeo.com/video/711219530?h=75cd9a2dc7" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
-                <iframe src="https://player.vimeo.com/video/714565039?h=22a38e8af5&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <figure class="fcontainer">
+                    <iframe class="responsive-iframe" src="https://player.vimeo.com/video/714565039?h=22a38e8af5&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+                
 
             </div>
         </div>
