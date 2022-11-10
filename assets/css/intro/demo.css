@@ -8,7 +8,7 @@ body{
 	font-size: 15px;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 }
 a{
@@ -25,6 +25,22 @@ a{
 	height: 0;
 	margin: 0;
 }
+.video{
+	width: 40vw;
+	margin: 0 auto;
+	position: relative;
+}
+@media (max-width: 768px) {
+	.video{
+		width: 80vw !important;
+		margin: 0 auto;
+		position: relative;
+	}
+	body {
+		overflow-y: auto;
+	}
+}
+
 .main{
 	width: 90%;
 	margin: 0 auto;

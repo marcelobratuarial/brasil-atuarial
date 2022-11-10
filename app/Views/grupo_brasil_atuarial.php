@@ -169,17 +169,141 @@
                 margin-top: 50px;
             } */
             h1 {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
             }
             .content .btn {
                 padding: 20px 12px;
             }
         }
+        .fcontainer {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%;
+        }
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
      </style>
 </head>
 
 <body>
-    <div class="container" style="position: absolute">
+    <div style="height: 100vh" class="d-flex justify-content-between align-items-center">
+        <h1>Seja bem-vindo ao <br>Grupo Brasil Atuarial</h1>
+        <section class="video">
+            <figure class="fcontainer">
+                <iframe class="responsive-iframe" src="https://player.vimeo.com/video/768948375?h=22a38e8af5&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </figure>
+        </section>
+        <section class="main">
+        
+            <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">				
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-1"></div>
+                                <div class="ch-info-back">
+                                    <h3>BRASIL ATUARIAL</h3>
+                                    <p>CONSULTORIA</p>
+                                    <form action="<?= base_url("/atuarial")?>" method="get">
+                                        <button class="btn btn-primary">
+                                            Acessar
+                                        </button>
+                                    </form>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-atuarial.png") ?>" /> -->
+                        <p>Nós somos uma empresa de desenvolvimento de Consultoria Atuarial para Entidades do 3 Setor e Insurtechs.</p>
+                        <p>Atualmente somos a empresa que fornece gratuitamente a maior gama de conteúdos sobre o segmento Mutualista.</p>
+                        <form action="<?= base_url("/atuarial")?>" method="get">
+                            <button class="btn btn-primary">
+                                Acessar
+                            </button>
+                        </form>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-3">
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-3"></div>
+                                <div class="ch-info-back">
+                                    <h3>BRASIL BENEFÍCIOS</h3>
+                                    <p>CENTRAL DE BENEFÍCIOS</p>
+                                    <a class="btn btn-primary" href="https://brasilbeneficios.club">Acessar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/brasil-beneficios.svg") ?>" /> -->
+                        <p>Nós somos uma empresa de fornecimento e gestão de Benefícios para Entidades do 3 Setor, Sindicatos, Cooperativas e 
+                            Federações. Em uma relação 100% digital, entregamos as melhores soluções em Benefícios do Brasil.</p>
+                        <a href="https://brasilbeneficios.club" class="btn btn-primary">Acessar</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-2">
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-2"></div>
+                                <div class="ch-info-back">
+                                    <h3>DYGO</h3>
+                                    <p>Universidade Corporativa</p>
+                                    <a class="btn btn-primary" href="https://dygo.com.br">Acessar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/dygo.jpg") ?>" /> -->
+                        <p>A DYGO é a primeira plataforma de Ensino a Distância do Brasil totalmente personalizada para Entidades Mútuas com cursos 
+                            100% online e avaliação de desempenho do aprendizado após o treinamento, possibilitando dessa forma a 
+                            expansão da atividade das Entidades a nível nacional com qualificação garantida.</p>
+                            <a class="btn btn-primary" href="https://dygo.com.br" class="btn btn-primary">Acessar</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item ch-img-4">
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-4"></div>
+                                <div class="ch-info-back">
+                                    <h3>BRASIL DIGITAL</h3>
+                                    <p>AGÊNCIA DE MARKETING</p>
+                                    <a class="btn btn-primary" href="https://agenciabrasildigital.com.br">Acessar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <img src="<?= base_url("assets/img/grupo-logos/agencia-brasil-digital.png") ?>" /> -->
+                        <p>Nós somos uma agência de marketing digital que conta com um hub de profissionais multidisciplinares focados em resultados.</p>
+                        <a href="https://agenciabrasildigital.com.br" class="btn btn-primary">Acessar</a>
+                    </div>
+                </li>
+                
+            </ul>
+            
+        </section>
+        <div style="display:none;" class="logo-place">
+        </div>
+        <div class="display">
+            <div class="container-content"></div>
+        </div> 
+    </div>
+    <?php /*<div class="container d-flex flex-column justify-content-center align-items-center">
 		
         <h1>Seja bem-vindo ao <br>Grupo Brasil Atuarial</h1>
         
@@ -284,7 +408,7 @@
         <div class="display">
             <div class="container-content"></div>
         </div> 
-    </div>
+    </div> */ ?>
     
     <?php /*
     <div class="all-container">
